@@ -1,0 +1,598 @@
+.mt-header {
+  position: relative;
+}
+
+.top-site {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 5px 0px;
+  border-bottom: 1px solid #eee;
+}
+
+.top-site::after {
+  clear: both;
+}
+
+.top-site .top-site-left {
+  font-weight: 600;
+  font-style: italic;
+  font-size: 14px;
+  color: #1a1a1a;
+  float: left;
+}
+
+.top-site .top-site-right {
+  font-weight: 600;
+  font-size: 14px;
+  color: #438dc4;
+  float: right;
+}
+
+.logo-hotline {
+  width: 100%;
+  background-color: #fff;
+  padding: 5px 0px;
+}
+
+.logo-hotline::after {
+  clear: both;
+}
+
+.header-logo {
+  float: left;
+}
+
+.header-hotline {
+  float: right;
+  margin: 7px 0px 0px 10px;
+}
+
+.header-hotline p.top-hotline247 {
+  padding: 3px 5px;
+  margin: 0px;
+  line-height: 12px;
+  border: 2px solid #00adef;
+  border-radius: 2px 2px 0px 0px;
+  background-color: #fffcee;
+  font-size: 10px;
+  color: #666;
+  text-align: center;
+}
+
+.header-hotline p.top-hotline {
+  color: #ffffff;
+  border: none;
+  background-color: #00adef;
+  margin: 0px;
+  border-radius: 0px 0px 2px 2px;
+  /* letter-spacing: 1.9px; */
+  /* text-align: center; */
+  float: none;
+  padding: 0 9px;
+}
+
+.mt-navbar .container {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.navbar-mytour {
+  background-color: #00adef;
+  border-bottom: 3px solid #0090c4;
+  color: #fff;
+  min-height: 40px !important;
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+
+.navbar-mytour a {
+  color: #fff;
+}
+
+.navbar-mytour .navbar-nav>li>a {
+  line-height: 10px !important;
+}
+
+.navbar-mytour li.active {
+  background: #009fd9;
+}
+
+.navbar-mytour .navbar-nav>li>a:hover,
+.navbar-mytour .navbar-nav>li>a:focus {
+  background: #009fd9;
+}
+
+.navbar-mytour .nav .open>a, 
+.navbar-mytour.nav .open>a:focus,
+.navbar-mytour .nav .open>a:hover {
+  background: #009fd9;
+}
+
+.navbar-mytour .navbar-nav>li>.dropdown-menu {
+  margin-top: 2px;
+}
+
+.navbar-mytour .dropdown-menu>li>a {
+  color: #00adef;
+}
+
+.navbar-mytour .dropdown-menu>li>a:hover {
+  background: #00adef;
+  color: #fff;
+}
+
+.divider-vertical {
+  height: 30px;
+  margin: 5px 10px;
+  border-left: 1px solid #F2F2F2;
+  border-right: 1px solid #FFF;
+}
+.divider-vertical::before {
+  content: " ";
+}
+
+.navbar-icon {
+  padding: 5px !important;
+}
+
+.mt-slider {
+  height: 380px;
+  width: 100%;
+  /* background: url(../images/bg-slider.jpg) center top; */
+}
+
+.navbar-mytour .navbar-toggle {
+  background-color: #009fd9;
+  margin-right: 30px;
+}
+
+.navbar-mytour .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar-mytour .container>.navbar-collapse {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#vietnam-hotels-tab {
+  width: 100%;
+  margin: 0px;
+  padding: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  float: left;
+  background-color: #00adef;
+  color: #fff;
+}
+
+.box-search {
+  margin-top: -70px;
+  /* z-index: 9999; */
+  position: relative;
+}
+
+#mt-carousel {
+  /* z-index: -9999; */
+}
+
+/* .box-search .tab-content>.active {
+  display: table;
+} */
+
+#international-hotels-tab {
+  width: 100%;
+  margin: 0px;
+  padding: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  float: left;
+  background-color: #00adef;
+  color: #fff;
+}
+
+.btn-mytour {
+    color: #555;
+    background-color: #fffe00;
+    border-color: #ffd21f;
+}
+
+#search-vn-hotels input {
+  border-radius: 0px;
+}
+
+.mt-slider .nav-tabs>li>a {
+  border: 1px solid transparent;
+  background-color: #eee;
+  border-radius: 0px;
+  font-weight: 700;
+  color: #555;
+}
+
+.mt-slider .nav-tabs>li.active>a {
+  border: 1px solid transparent;
+  background-color: #00adef;
+  color: #fff;
+}
+
+.mt-slider .nav-tabs {
+  border-bottom: 0px;
+}
+
+.box-search-header h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#search-vn-hotels h4 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+#mt-carousel .carousel-indicators {
+  width: 20%;
+  margin-left: -10%;
+}
+
+.mt-slider {
+  display: block;
+}
+
+#mt-popular-places {
+  margin-top: 160px;
+}
+
+.section-header h2 {
+  font-weight: 400;
+  font-size: 24px;
+  color: #555;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+}
+
+.section-header span {
+  width: 20%;
+  height: 2px;
+  background-color: #d8d8d8;
+  display: inline-flex;
+}
+
+.section-header {
+  margin-top: 0px;
+  text-align: center;
+}
+
+.place {
+  margin: 0 15px;
+  padding: 0;
+}
+
+.place img {
+
+}
+
+.place-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: table;
+  background: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+}
+
+.place-name {
+  height: 40px;
+  text-align: center;
+  padding-bottom: 10px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  margin: 0;
+}
+
+.place-name h4 {
+  margin: 0px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #ffffff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.place-name span {
+  width: 40px;
+  height: 2px;
+  background-color: #ffffff;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.hot-place {
+  width: 100%;
+  float: left;
+  margin-bottom: 10px
+}
+
+@media (max-width: 767px) {
+  .hot-place {
+      margin:0 auto
+  }
+}
+
+.hot-place .hot-place-panel {
+  height: 181px;
+  margin: 0px 10px 10px 0px;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  text-align: center
+}
+
+@media (max-width: 767px) {
+  .hot-place .hot-place-panel {
+      width:100%;
+      height: 120px;
+      margin-bottom: 1px
+  }
+}
+
+@media (min-width: 768px) {
+  .hot-place .hot-place-panel {
+      width:232px;
+      height: 111px
+  }
+}
+
+@media (min-width: 992px) {
+  .hot-place .hot-place-panel {
+      width:306px;
+      height: 148px
+  }
+}
+
+@media (min-width: 1200px) {
+  .hot-place .hot-place-panel {
+      width:372px;
+      height: 181px
+  }
+}
+
+@media (min-width: 768px) {
+  .hot-place .hot-place-panel.half {
+      width:111px;
+      height: 111px
+  }
+}
+
+@media (min-width: 992px) {
+  .hot-place .hot-place-panel.half {
+      width:148px;
+      height: 148px
+  }
+}
+
+@media (min-width: 1200px) {
+  .hot-place .hot-place-panel.half {
+      width:181px;
+      height: 181px
+  }
+}
+
+@media (max-width: 767px) {
+  .hot-place .hot-place-panel.half-xs {
+      width:50%;
+      height: 120px
+  }
+}
+
+.hot-place .hot-place-panel.no-right {
+  margin-right: 0px
+}
+
+@media (max-width: 767px) {
+  .hot-place .hot-place-panel.no-right-xs {
+      margin-right:0px
+  }
+}
+
+@media (max-width: 767px) {
+  .hot-place .hot-place-panel.padding-left-xs {
+      padding-left:1px
+  }
+}
+
+.hot-place .hot-place-panel img {
+  width: 100%;
+  height: 100%
+}
+
+@media (max-width: 767px) {
+  .hot-place .hot-place-panel img {
+      object-fit:cover
+  }
+}
+
+.hot-place .place-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: table;
+  background: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  cursor: pointer
+}
+
+.hot-place .place-name {
+  height: 40px;
+  text-align: center;
+  padding-bottom: 10px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  margin: 0
+}
+
+@media (max-width: 767px) {
+  .hot-place .place-name {
+      margin-top:40px
+  }
+}
+
+@media (min-width: 768px) {
+  .hot-place .place-name {
+      margin-top:36px
+  }
+}
+
+@media (min-width: 992px) {
+  .hot-place .place-name {
+      padding-top:6px;
+      -webkit-transform: translateY(53px);
+      -ms-transform: translateY(53px);
+      transform: translateY(53px);
+      margin-top: 0
+  }
+}
+
+@media (min-width: 1200px) {
+  .hot-place .place-name {
+      padding-top:20px
+  }
+}
+
+.hot-place .place-name h4 {
+  margin: 0px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #ffffff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5)
+}
+
+.hot-place .place-name span {
+  width: 40px;
+  height: 2px;
+  background-color: #ffffff;
+  display: inline-block;
+  margin: 0 auto
+}
+
+.hot-place .place-content {
+  display: table-cell;
+  vertical-align: middle
+}
+
+.hot-place .place-content .middle {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  text-align: center
+}
+
+.hot-place .place-content p {
+  width: 220px;
+  margin: 0px auto;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: left;
+  display: none
+}
+
+.hot-place .place-content p i.fa-search {
+  margin: 2px 5px 0px 0px;
+  float: left
+}
+
+.hot-place .place-content p.place-info {
+  display: inline-block;
+  text-decoration: none;
+  background-color: transparent;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  padding-left: 8px
+}
+
+.hot-place .place-content p.place-info.place-info-hcm {
+  width: 250px;
+  padding-left: 0
+}
+
+.hot-place .place-content p.place-special {
+  padding-left: 0
+}
+
+.hot-place .place-content p.place-info-head {
+  margin-top: 20px
+}
+
+@media (max-width: 767px) {
+  .hot-place .place-content p.place-info-head {
+      margin-top:0
+  }
+}
+
+@media (min-width: 768px) {
+  .hot-place .place-content p.place-info-head {
+      margin-top:0
+  }
+}
+
+@media (min-width: 992px) {
+  .hot-place .place-content p.place-info-head {
+      margin-top:10px
+  }
+}
+
+@media (min-width: 1200px) {
+  .hot-place .place-content p.place-info-head {
+      margin-top:20px
+  }
+}
+
+.hot-place .place-content:hover p {
+  display: block
+}
+
+.hot-place .place-content:hover .place-name {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px)
+}
+
+.hot-place .place-content:hover p.place-info {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1)
+}
+
+@media (min-width: 992px) {
+  .hot-place .half .place-content p {
+      font-size:10px
+  }
+}
+
+@media (min-width: 1200px) {
+  .hot-place .half .place-content p {
+      width:175px;
+      font-size: 12px
+  }
+}
+
+@media (max-width: 767px) {
+  .hot-place .half-xs .place-content p {
+      width:150px;
+      font-size: 12px
+  }
+}

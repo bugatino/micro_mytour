@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="utf-8">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Khách sạn Hà Nội giá rẻ | myTour.vn</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/font-awesome.min.css" rel="stylesheet">
+  <link href="./css/jquery.daterangepicker.css" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+              <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+              <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+          <![endif]-->
+</head>
+
+<body>
+
+  <div class="mt-header">
+    <div class="top-site hidden-xs">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <div class="top-site-left">
+              <p id="top-status" style="margin: 0;">Giá sốc trong tuần <span style="color:red;">giảm tới 50%</span>. Đặt ngay nhé!</p>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <div class="top-site-right">
+              <div class="language">
+                <a href="#">日本語でのご予約</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="logo-hotline">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-4 col-sm-4 col-md-6 col-lg-6">
+            <div class="header-logo">
+              <a class="logo" href="index.html">
+                <img class="img-responsive" src="./images/logo.png" alt="mytour.vn" title="mytour.vn">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-8 col-sm-8 col-md-6 col-lg-6">
+            <div class="header-hotline">
+              <p class="top-hotline247">Hotline <strong>miễn phí 24/7</strong></p>
+              <p class="top-hotline"><i class="fa fa-phone"></i><strong> HN: 024 7109 9999</strong></p>
+              <p class="top-hotline"><i class="fa fa-phone"></i><strong> HCM: 028 7109 9998</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-navbar">
+      <nav class="navbar navbar-mytour" role="navigation">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".mt-navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse mt-navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">KHÁCH SẠN</a></li>
+              <li><a href="#">TOUR</a></li>
+              <li><a href="#">CẨM NANG DU LỊCH</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">THÔNG TIN<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">VỀ MYTOUR</a></li>
+                  <li><a href="#">TIN KHUYẾN MÃI</a></li>
+                  <li><a href="#">ƯU ĐÃI</a></li>
+                  <li><a href="#">HƯỚNG DẪN</a></li>
+                  <li><a href="#">LIÊN HỆ</a></li>
+                </ul>
+              </li>
+              <li><a href="#">TỐT NHẤT 2017</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+              <li class="hidden-xs hidden-sm"><a class="navbar-icon" href="#"><i class="fa fa-comments fa-2x" aria-hidden="true"></i></i></a></li>
+              <li class="hidden-xs hidden-sm"><a class="navbar-icon" href="#"><i class="fa fa-bell-o fa-2x" aria-hidden="true"></i></a></li>
+              <li class="divider-vertical hidden-xs hidden-sm"></li>
+              <li class="dropdown  hidden-xs">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">TÀI KHOẢN<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">ĐĂNG NHẬP</a></li>
+                  <li><a href="#">ĐĂNG KÝ</a></li>
+                  <li><a href="#">KHÁCH SẠN YÊU THÍCH</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+      </nav>
+    </div>
+    <!-- end mt-navbar -->
+  </div>
+  <!-- end mt-header -->
+
+  <div class="mt-slider">
+    <div id="mt-carousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#mt-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#mt-carousel" data-slide-to="1" class=""></li>
+        <li data-target="#mt-carousel" data-slide-to="2" class=""></li>
+        <li data-target="#mt-carousel" data-slide-to="3" class=""></li>
+        <li data-target="#mt-carousel" data-slide-to="4" class=""></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img data-src="#" alt="First slide" src="./images/slide1.jpg">
+        </div>
+        <div class="item">
+          <img data-src="#" alt="Second slide" src="./images/slide2.jpg">
+        </div>
+        <div class="item">
+          <img data-src="#" alt="Third slide" src="./images/slide3.jpg">
+        </div>
+        <div class="item">
+          <img data-src="#" alt="Third slide" src="./images/slide4.jpg">
+        </div>
+        <div class="item">
+          <img data-src="#" alt="Third slide" src="./images/slide5.jpg">
+        </div>
+      </div>
+      <a class="left carousel-control" href="#mt-carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#mt-carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+
+    <div class="box-search">
+      <div class="container">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active">
+            <a href="#vietnam-hotels-tab" aria-controls="vietnam-hotels-tab" role="tab" data-toggle="tab"><i class="fa fa-map-marker" aria-hidden="true"></i> Việt Nam</a>
+          </li>
+          <li role="presentation">
+            <a href="#international-hotels-tab" aria-controls="international-hotels-tab" role="tab" data-toggle="tab"><i class="fa fa-globe" aria-hidden="true"></i> Nước Ngoài</a>
+          </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="vietnam-hotels-tab">
+            <div class="box-search-header">
+              <h1 class="h2 mg-0 mg-bt-5">Tìm Khách sạn trong nước</h1>
+              <p class="text-sm">Hơn 5,000 khách sạn khắp Việt Nam</p>
+            </div>
+            <form id="search-vn-hotels">
+              <div class="row">
+                <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
+                  <div class="booking-hotels">
+                    <h4>Nơi bạn muốn đến</h4>
+                    <input class="form-control input-provinces" id="trip-keywords" type="text" placeholder="Nhập điểm đến, khách sạn" autocomplete="off">
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-5 col-md-3 col-lg-3">
+                  <div class="booking-date">
+                    <h4>Ngày nhận & trả phòng</h4>
+                    <input class="form-control input-provinces" name="booking-date-vn" id="booking-date-vn" type="text" autocomplete="off">
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                  <div class="booking-btn-search">
+                    <div class="booking-date">
+                      <h4>&nbsp;</h4>
+                      <button type="button" class="btn btn-block btn-mytour"><i class="fa fa-search" aria-hidden="true"></i> Tìm kiếm</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="international-hotels-tab">
+            <div class="box-search-header">
+              <h1 class="h2 mg-0 mg-bt-5">Tìm Khách sạn Quốc Tế</h1>
+              <p class="text-sm">1,007,490 chỗ ở trên toàn thế giới</p>
+            </div>
+            <form id="search-international-hotels">
+              <div class="row">
+                <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
+                  <div class="booking-hotels">
+                    <h4>Nơi bạn muốn đến</h4>
+                    <input class="form-control input-provinces" id="trip-keywords" type="text" placeholder="Nhập điểm đến, khách sạn" autocomplete="off">
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-5 col-md-3 col-lg-3">
+                  <div class="booking-date">
+                    <h4>Ngày nhận & trả phòng</h4>
+                    <input class="form-control input-provinces" name="booking-date-inter" id="booking-date-inter" type="text" autocomplete="off">
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                  <div class="booking-btn-search">
+                    <div class="booking-date">
+                      <h4>&nbsp;</h4>
+                      <button type="button" class="btn btn-block btn-mytour"><i class="fa fa-search" aria-hidden="true"></i> Tìm kiếm</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end box-search -->
+  </div>
+  <!-- end mt-slider -->
+
+  <div id="mt-popular-places">
+    <div class="container">
+      <div class="section-header">
+        <h2>NHỮNG ĐIỂM ĐẾN HẤP DẪN</h2>
+        <span>&nbsp;</span>
+      </div>
+
+
+      <div class="hot-place">
+            <a href="https://www.vntrip.vn/khach-san/ha-noi">
+                <div class="hot-place-panel"><a><img src="/images/dest/dest.373x181.01.png" alt=""></a>
+                    <div class="place-overlay">
+                        <div class="place-content">
+                            <div class="middle">
+                                <div class="place-name">
+                                    <h4>Hà Nội</h4><span>&nbsp;</span>
+                                </div>
+                                <p class="place-info place-info-head hidden-sm hidden-xs"><i class="fa fa-search"></i>1000 khách sạn Hà Nội</p>
+                                <p class="place-info hidden-sm hidden-xs"><i class="fa fa-search"></i>Cẩm nang du lịch Hà Nội</p>
+                                <p class="place-info hidden-sm hidden-xs"><i class="fa fa-search"></i>Khuyến mại du lịch Hà Nội</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.vntrip.vn/khach-san/da-nang">
+                <div class="hot-place-panel half half-xs no-right-xs"><a><img src="/images/dest/dest.181x181.01.png" alt=""></a>
+                    <div class="place-overlay">
+                        <div class="place-content">
+                            <div class="middle">
+                                <div class="place-name">
+                                    <h4>Đà Nẵng</h4><span>&nbsp;</span>
+                                </div>
+                                <p class="place-info place-info-head place-special hidden-sm hidden-xs"><i class="fa fa-search"></i>600 khách sạn Đà Nẵng</p>
+                                <p class="place-info place-special hidden-sm hidden-xs"><i class="fa fa-search"></i>Cẩm nang du lịch Đà Nẵng</p>
+                                <p class="place-info place-special hidden-sm hidden-xs"><i class="fa fa-search"></i>Khuyến mại du lịch Đà Nẵng</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.vntrip.vn/khach-san/quang-nam/hoi-an">
+                <div class="hot-place-panel half half-xs no-right-xs padding-left-xs"><a><img src="/images/dest/dest.181x181.02.png" alt=""></a>
+                    <div class="place-overlay">
+                        <div class="place-content">
+                            <div class="middle">
+                                <div class="place-name">
+                                    <h4>Hội An</h4><span>&nbsp;</span>
+                                </div>
+                                <p class="place-info place-info-head place-special hidden-sm hidden-xs"><i class="fa fa-search"></i>500 khách sạn Hội An</p>
+                                <p class="place-info place-special hidden-sm hidden-xs"><i class="fa fa-search"></i>Cẩm nang du lịch Hội An</p>
+                                <p class="place-info place-special hidden-sm hidden-xs"><i class="fa fa-search"></i>Khuyến mại du lịch Hội An</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.vntrip.vn/khach-san/sai-gon-ho-chi-minh">
+                <div class="hot-place-panel no-right"><a><img src="/images/dest/dest.373x181.02.png" alt=""></a>
+                    <div class="place-overlay">
+                        <div class="place-content">
+                            <div class="middle">
+                                <div class="place-name">
+                                    <h4>TP Hồ Chí Minh</h4><span>&nbsp;</span>
+                            </div>
+                                <p class="place-info place-info-hcm place-info-head hidden-sm hidden-xs"><i class="fa fa-search"></i>1500 khách sạn TP Hồ Chí Minh</p>
+                                <p class="place-info place-info-hcm hidden-sm hidden-xs"><i class="fa fa-search"></i>Cẩm nang du lịch TP Hồ Chí Minh</p>
+                                <p class="place-info place-info-hcm hidden-sm hidden-xs"><i class="fa fa-search"></i>Khuyến mại du lịch TP Hồ Chí Minh</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.vntrip.vn/khach-san/kien-giang/phu-quoc">
+                <div class="hot-place-panel half-xs no-right-xs"><a><img src="/images/dest/dest.373x181.03.png" alt=""></a>
+                    <div class="place-overlay">
+                        <div class="place-content">
+                            <div class="middle">
+                                <div class="place-name">
+                                    <h4>Phú Quốc</h4><span>&nbsp;</span>
+                                </div>
+                                <p class="place-info place-info-head hidden-sm hidden-xs"><i class="fa fa-search"></i>350 khách sạn Phú Quốc</p>
+                                <p class="place-info hidden-sm hidden-xs"><i class="fa fa-search"></i>Cẩm nang du lịch Phú Quốc</p>
+                                <p class="place-info hidden-sm hidden-xs"><i class="fa fa-search"></i>Khuyến mại du lịch Phú Quốc</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.vntrip.vn/khach-san/khanh-hoa/nha-trang">
+                <div class="hot-place-panel half-xs no-right-xs padding-left-xs"><a><img src="/images/dest/dest.373x181.04.png" alt=""></a>
+                    <div class="place-overlay">
+                        <div class="place-content">
+                            <div class="middle">
+                                <div class="place-name">
+                                    <h4>Nha Trang</h4><span>&nbsp;</span>
+                                </div>
+                                <p class="place-info place-info-head hidden-sm hidden-xs"><i class="fa fa-search"></i>500 khách sạn Nha Trang</p>
+                                <p class="place-info hidden-sm hidden-xs"><i class="fa fa-search"></i>Cẩm nang du lịch Nha Trang</p>
+                                <p class="place-info hidden-sm hidden-xs"><i class="fa fa-search"></i>Khuyến mại du lịch Nha Trang</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.vntrip.vn/khach-san/lam-dong/da-lat">
+                <div class="hot-place-panel no-right"><a><img src="/images/dest/dest.373x181.05.png" alt=""></a>
+                    <div class="place-overlay">
+                        <div class="place-content">
+                            <div class="middle">
+                                <div class="place-name">
+                                    <h4>Đà Lạt</h4><span>&nbsp;</span>
+                                </div>
+                                <p class="place-info place-info-head hidden-sm hidden-xs"><i class="fa fa-search"></i>500 khách sạn Đà Lạt</p>
+                                <p class="place-info hidden-sm hidden-xs"><i class="fa fa-search"></i>Cẩm nang du lịch Đà Lạt</p>
+                                <p class="place-info hidden-sm hidden-xs"><i class="fa fa-search"></i>Khuyến mại du lịch Đà Lạt</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- jQuery -->
+  <script src="./js/jquery.min.js"></script>
+  <!-- Bootstrap JavaScript -->
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/moment.min.js"></script>
+  <script src="./js/jquery.daterangepicker.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
