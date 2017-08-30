@@ -22,17 +22,19 @@ $(document).ready(function() {
 });
 //end document.ready
 
-$("#price-range").ionRangeSlider({
-    type: "double",
-    min: 0,
-    max: 3000000,
-    step: 500000,
-    grid: true,
-    grid_snap: true,
-    postfix: " vnđ",
-    force_edges: true,
-    prettify_enabled: true
-});
+if ($('#price-range').length) {
+    $("#price-range").ionRangeSlider({
+        type: "double",
+        min: 0,
+        max: 3000000,
+        step: 500000,
+        grid: true,
+        grid_snap: true,
+        postfix: " vnđ",
+        force_edges: true,
+        prettify_enabled: true
+    });
+}
 
 //Function to animate slider captions 
 function doAnimations(elems) {
@@ -72,70 +74,30 @@ $('#carousel-example-generic').carousel({
     pause: "false"
 });
 
-/* $(function() {
-    var $window = $(window),
-        win_height_padded = $window.height() * 1.1;
-
-    $window.on('scroll', revealOnScroll);
-
-    function revealOnScroll() {
-        var scrolled = $window.scrollTop(),
-            win_height_padded = $window.height() * 1.1;
-
-        // Showed...
-        $(".revealOnScroll:not(.animated)").each(function() {
-            var $this = $(this),
-                offsetTop = $this.offset().top;
-
-            if (scrolled + win_height_padded > offsetTop) {
-                if ($this.data('timeout')) {
-                    window.setTimeout(function() {
-                        $this.addClass('animated ' + $this.data('animation'));
-                    }, parseInt($this.data('timeout'), 10));
-                } else {
-                    $this.addClass('animated ' + $this.data('animation'));
-                }
-            }
-        });
-        // Hidden...
-        $(".revealOnScroll.animated").each(function(index) {
-            var $this = $(this),
-                offsetTop = $this.offset().top;
-            if (scrolled + win_height_padded < offsetTop) {
-                $(this).removeClass('animated ' + $this.data('animation'))
-            }
-        });
-    }
-
-    revealOnScroll();
-}); */
-
 AOS.init({
     duration: 1200,
 })
 
-$('#province-info .content').readmore({
-    speed: 1500,
-    lessLink: '<a href="#"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></a>',
-    moreLink: '<a href="#"><i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i></a>'
+if ($('#province-info .content').length) {
+    $('#province-info .content').readmore({
+        speed: 1500,
+        lessLink: '<a href="#"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></a>',
+        moreLink: '<a href="#"><i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i></a>'
+    });
+}
+
+if ($('.collapse-content').length) {
+    $('.collapse-content').readmore({
+        speed: 1500,
+        lessLink: '<a href="#">Thu gọn</a>',
+        moreLink: '<a href="#">Mở rộng</a>'
+    });
+}
+
+$("#search-hotel-vn").click(function() {
+    location.href = "list-hotel.html";
 });
 
-$('.collapse-content').readmore({
-    speed: 1500,
-    lessLink: '<a href="#">Thu gọn</a>',
-    moreLink: '<a href="#">Mở rộng</a>'
-});
-
-// $('.slider').slider();
-
-$("#price-range").ionRangeSlider({
-    type: "double",
-    min: 0,
-    max: 3000000,
-    step: 500000,
-    grid: true,
-    grid_snap: true,
-    postfix: " vnđ",
-    force_edges: true,
-    prettify_enabled: true
-});
+$(".mosaic-cell-caption").click(function() {
+    location.href = "list-hotel.html";
+})
