@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="utf-8">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Khách sạn Hà Nội giá rẻ | myTour.vn</title>
+
+    <!-- CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/font-awesome.min.css" rel="stylesheet">
+    <link href="./css/jquery.daterangepicker.css" rel="stylesheet">
+    <link href="./css/animate.css" rel="stylesheet">
+    <link href="./css/aos.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+              <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+              <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+          <![endif]-->
+</head>
+
+<body>
+
+    <div id="mt-header">
+        <div class="top-site hidden-xs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <div class="top-site-left">
+                            <p id="top-status" style="margin: 0;">Giá sốc trong tuần <span style="color:red;">giảm tới 50%</span>. Đặt ngay nhé!</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <div class="top-site-right">
+                            <div class="language">
+                                <a href="#">日本語でのご予約</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="logo-hotline">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-4 col-sm-4 col-md-6 col-lg-6">
+                        <div class="header-logo">
+                            <a class="logo" href="index.html">
+                                <img class="img-responsive" src="./images/logo.png" alt="mytour.vn" title="mytour.vn">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-8 col-sm-8 col-md-6 col-lg-6">
+                        <div class="header-hotline">
+                            <p class="top-hotline247">Hotline <strong>miễn phí 24/7</strong></p>
+                            <p class="top-hotline"><i class="fa fa-phone"></i><strong> HN: 024 7109 9999</strong></p>
+                            <p class="top-hotline"><i class="fa fa-phone"></i><strong> HCM: 028 7109 9998</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-navbar">
+            <nav class="navbar navbar-mytour" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".mt-navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse mt-navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">KHÁCH SẠN</a></li>
+                            <li><a href="#">TOUR</a></li>
+                            <li><a href="#">CẨM NANG DU LỊCH</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">THÔNG TIN<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">VỀ MYTOUR</a></li>
+                                    <li><a href="#">TIN KHUYẾN MÃI</a></li>
+                                    <li><a href="#">ƯU ĐÃI</a></li>
+                                    <li><a href="#">HƯỚNG DẪN</a></li>
+                                    <li><a href="#">LIÊN HỆ</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">TỐT NHẤT 2017</a></li>
+                        </ul>
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="hidden-xs hidden-sm"><a class="navbar-icon" href="#"><i class="fa fa-comments fa-2x" aria-hidden="true"></i></i></a></li>
+                            <li class="hidden-xs hidden-sm"><a class="navbar-icon" href="#"><i class="fa fa-bell-o fa-2x" aria-hidden="true"></i></a></li>
+                            <li class="divider-vertical hidden-xs hidden-sm"></li>
+                            <li class="dropdown  hidden-xs">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">TÀI KHOẢN<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">ĐĂNG NHẬP</a></li>
+                                    <li><a href="#">ĐĂNG KÝ</a></li>
+                                    <li><a href="#">KHÁCH SẠN YÊU THÍCH</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+            </nav>
+        </div>
+        <!-- end mt-navbar -->
+    </div>
+    <!-- end mt-header -->
+
+    <div class="mt-slider">
+        <div id="mt-carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#mt-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#mt-carousel" data-slide-to="1" class=""></li>
+                <li data-target="#mt-carousel" data-slide-to="2" class=""></li>
+                <li data-target="#mt-carousel" data-slide-to="3" class=""></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <a href="#">
+                        <img data-src="#" alt="First slide" src="./images/promotions/slide-1.jpg">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img data-src="#" alt="Second slide" src="./images/promotions/slide-2.jpg">
+                    </a>
+
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img data-src="#" alt="Third slide" src="./images/promotions/slide-3.jpg">
+                    </a>
+
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img data-src="#" alt="Third slide" src="./images/promotions/slide-4.jpg">
+                    </a>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#mt-carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="right carousel-control" href="#mt-carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+
+        <div class="box-search">
+            <div class="container">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active">
+                        <a href="#vietnam-hotels-tab" aria-controls="vietnam-hotels-tab" role="tab" data-toggle="tab"><i class="fa fa-map-marker" aria-hidden="true"></i> Việt Nam</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#international-hotels-tab" aria-controls="international-hotels-tab" role="tab" data-toggle="tab"><i class="fa fa-globe" aria-hidden="true"></i> Nước Ngoài</a>
+                    </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="vietnam-hotels-tab">
+                        <div class="box-search-header">
+                            <h1 class="h2 mg-0 mg-bt-5">Tìm Khách sạn trong nước</h1>
+                            <p class="text-sm">Hơn 5,000 khách sạn khắp Việt Nam</p>
+                        </div>
+                        <form id="search-vn-hotels">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
+                                    <div class="booking-hotels">
+                                        <h4>Nơi bạn muốn đến</h4>
+                                        <input class="form-control input-provinces" id="trip-keywords" type="text" placeholder="Nhập điểm đến, khách sạn" autocomplete="off">
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-12 col-sm-5 col-md-3 col-lg-3">
+                                    <div class="booking-date">
+                                        <h4>Ngày nhận & trả phòng</h4>
+                                        <input class="form-control input-provinces" name="booking-date-vn" id="booking-date-vn" type="text" autocomplete="off">
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                                    <div class="booking-btn-search">
+                                        <div class="booking-date">
+                                            <h4>&nbsp;</h4>
+                                            <button type="button" class="btn btn-block btn-mytour"><i class="fa fa-search" aria-hidden="true"></i> Tìm kiếm</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="international-hotels-tab">
+                        <div class="box-search-header">
+                            <h1 class="h2 mg-0 mg-bt-5">Tìm Khách sạn Quốc Tế</h1>
+                            <p class="text-sm">1,007,490 chỗ ở trên toàn thế giới</p>
+                        </div>
+                        <form id="search-international-hotels">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
+                                    <div class="booking-hotels">
+                                        <h4>Nơi bạn muốn đến</h4>
+                                        <input class="form-control input-provinces" id="trip-keywords" type="text" placeholder="Nhập điểm đến, khách sạn" autocomplete="off">
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-12 col-sm-5 col-md-3 col-lg-3">
+                                    <div class="booking-date">
+                                        <h4>Ngày nhận & trả phòng</h4>
+                                        <input class="form-control input-provinces" name="booking-date-inter" id="booking-date-inter" type="text" autocomplete="off">
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                                    <div class="booking-btn-search">
+                                        <div class="booking-date">
+                                            <h4>&nbsp;</h4>
+                                            <button type="button" class="btn btn-block btn-mytour"><i class="fa fa-search" aria-hidden="true"></i> Tìm kiếm</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end box-search -->
+    </div>
+    <!-- end mt-slider -->
+
+    <div id="mt-popular-places">
+        <div class="container">
+            <div class="section-header">
+                <h2>NHỮNG ĐIỂM ĐẾN HẤP DẪN</h2>
+                <span>&nbsp;</span>
+            </div>
+
+            <div class="mosaic-row mosaic-row-one">
+                <div class="mosaic-cell">
+                    <div class="mosaic-cell-overlay"></div>
+                    <a class="mosaic-cell-caption">
+                        <span class="mosaic-cell-caption-city" data-aos="fade-up">Hà Nội</span>
+                        <span class="mosaic-cell-caption-numberhotels" data-aos="fade-up">1000 khách sạn</span>
+                    </a>
+                </div>
+                <div class="mosaic-cell">
+                    <div class="mosaic-cell-overlay"></div>
+                    <a class="mosaic-cell-caption">
+                        <span class="mosaic-cell-caption-city" data-aos="fade-right">Đà Nẵng</span>
+                        <span class="mosaic-cell-caption-numberhotels" data-aos="fade-right">600 khách sạn</span>
+                    </a>
+                </div>
+            </div>
+            <div class="mosaic-row mosaic-row-two">
+                <div class="mosaic-cell">
+                    <div class="mosaic-cell-overlay"></div>
+                    <a class="mosaic-cell-caption">
+                        <span class="mosaic-cell-caption-city" data-aos="fade-right">Hội An</span>
+                        <span class="mosaic-cell-caption-numberhotels" data-aos="fade-right">500 khách sạn</span>
+                    </a>
+                </div>
+                <div class="mosaic-cell">
+                    <div class="mosaic-cell-overlay"></div>
+                    <a class="mosaic-cell-caption">
+                        <span class="mosaic-cell-caption-city" data-aos="fade-left">TP. Hồ Chí Minh</span>
+                        <span class="mosaic-cell-caption-numberhotels" data-aos="fade-left">1500 khách sạn</span>
+                    </a>
+                </div>
+                <div class="mosaic-cell">
+                    <!-- nest these two mosaic-cells below because they need to sit right in the layout -->
+                    <div class="mosaic-cell">
+                        <!-- this is the lite gradient overlay -->
+                        <div class="mosaic-cell-overlay"></div>
+                        <a class="mosaic-cell-caption">
+                            <span class="mosaic-cell-caption-city" data-aos="fade-down">Phú Quốc</span>
+                            <span class="mosaic-cell-caption-numberhotels" data-aos="fade-down">350 khách sạn</span>
+                        </a>
+                    </div>
+                    <div class="mosaic-cell">
+                        <div class="mosaic-cell-overlay"></div>
+                        <a class="mosaic-cell-caption">
+                            <span class="mosaic-cell-caption-city" data-aos="fade-down">Nha Trang</span>
+                            <span class="mosaic-cell-caption-numberhotels" data-aos="fade-down">500 khách sạn</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="mosaic-row mosaic-row-three">
+                <div class="mosaic-cell">
+                    <div class="mosaic-cell-overlay"></div>
+                    <a class="mosaic-cell-caption">
+                        <span class="mosaic-cell-caption-city" data-aos="fade-up">Đà Lạt</span>
+                        <span class="mosaic-cell-caption-numberhotels" data-aos="fade-up">500 khách sạn</span>
+                    </a>
+                </div>
+                <div class="mosaic-cell">
+                    <div class="mosaic-cell-overlay"></div>
+                    <a class="mosaic-cell-caption">
+                        <span class="mosaic-cell-caption-city" data-aos="fade-down">Hạ Long</span>
+                        <span class="mosaic-cell-caption-numberhotels" data-aos="fade-down">550 khách sạn</span>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- end mt-popular-places -->
+
+    <div id="why-choice-us">
+        <div class="container">
+            <div class="section-header">
+                <h2>TẠI SAO NÊN ĐẶT PHÒNG KHÁCH SẠN TẠI MYTOUR.VN</h2>
+                <span>&nbsp;</span>
+            </div>
+
+            <div class="reason">
+                <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                    <div class="reason-icon">
+                        <i class="fa fa-usd fa-4x" aria-hidden="true"></i>
+                    </div>
+                    <p data-aos="fade-up" data-aos-delay="0">Đảm bảo giá tốt nhất. </p>
+                    <p data-aos="fade-up" data-aos-delay="300">Giá đặt qua myTour tốt hơn so với đặt trực tiếp tại khách sạn.</p>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                    <div class="reason-icon">
+                        <i class="fa fa-money fa-4x" aria-hidden="true"></i>
+                    </div>
+                    <p data-aos="fade-up" data-aos-delay="600">Đảm bảo hoàn tiền.</p>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                    <div class="reason-icon">
+                        <i class="fa fa-volume-control-phone fa-4x" aria-hidden="true"></i>
+                    </div>
+                    <p data-aos="fade-up" data-aos-delay="900">Nhân viên chăm sóc, tư vấn nhiều kinh nghiệm.</p>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                    <div class="reason-icon">
+                        <i class="fa fa-bed fa-4x" aria-hidden="true"></i>
+                    </div>
+                    <p data-aos="fade-up" data-aos-delay="1200">Hơn 5000 khách sạn tại Việt Nam với đánh giá thực</p>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                    <div class="reason-icon">
+                        <i class="fa fa-ticket fa-4x" aria-hidden="true"></i>
+                    </div>
+                    <p data-aos="fade-up" data-aos-delay="1500">Nhiều chương trình khuyến mãi và tích lũy điểm</p>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                    <div class="reason-icon">
+                        <i class="fa fa-credit-card fa-4x" aria-hidden="true"></i>
+                    </div>
+                    <p data-aos="fade-up" data-aos-delay="1800">Thanh toán dễ dàng, đa dạng</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- end why-choice-us -->
+
+    <div id="mt-mobile-app">
+        <div id="mt-slider" class="container">
+            <div id="carousel-example-generic" class="carousel slide carousel-fade">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <!-- Item 1 -->
+                    <div class="item active slide1">
+                        <div class="row">
+                            <div class="container">
+                                <div class="col-md-6 text-right">
+                                    <img class="img-responsive" data-animation="animated fadeInLeft" src="./images/mt-app1.png">
+                                </div>
+                                <div class="col-md-6 text-left">
+                                    <h3 data-animation="animated bounceInDown">Tìm kiếm khách sạn với giá ưu đãi từ điện thoại</h3>
+                                    <h4 data-animation="animated bounceInUp">Giá ưu đãi chỉ có trên ứng dụng Mytour.vn</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="item slide2">
+                        <div class="row">
+                            <div class="container">
+                                <div class="col-md-6 text-right">
+                                    <img class="img-responsive" data-animation="animated fadeInDown" src="./images/mt-app1.png">
+                                </div>
+                                <div class="col-md-6 text-left">
+                                    <h3 data-animation="animated bounceInDown">Đặt phòng chỉ với 3 bước đơn giản</h3>
+                                    <h4 data-animation="animated bounceInUp">Tải ứng dụng Mytour.vn, đặt phòng nhanh chóng, bất cứ đâu và bất cứ khi nào.</h4>
+                                    <h4 data-animation="animated bounceInUp">Hoàn toàn miễn phí</h4>
+                                    <div class="download-app">
+                                        <div class="col-md-6">
+                                            <a href="#"></a>
+                                            <img data-animation="animated fadeInLeft" src="./images/btn-app-android.png" alt="Android apps">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img data-animation="animated fadeInLeft" src="./images/btn-app-apple.png" alt="iOS apps">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Wrapper for slides -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <i class="fa fa-angle-left"></i><span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <i class="fa fa-angle-right"></i><span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- end mt-mobile-app -->
+
+    <div id="hotels-by-province" class="mt-block">
+        <div class="container">
+            <div class="title">
+                <h3>Khách sạn theo tỉnh thành</h3>
+                <span>&nbsp;</span>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 block-footer">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="/c4/khach-san-tai-an-giang.html">An Giang,</a>
+                        </li>
+                        <li>
+                            <a href="/c5/khach-san-tai-ba-ria-vung-tau.html"><span class="bold">Bà Rịa - Vũng Tàu</span>,</a>
+                        </li>
+                        <li>
+                            <a href="/c7/khach-san-tai-bac-giang.html">Bắc Giang,</a>
+                        </li>
+                        <li>
+                            <a href="/c14/khach-san-tai-bac-kan.html">Bắc Kạn,</a>
+                        </li>
+                        <li>
+                            <a href="/c70/khach-san-tai-bac-lieu.html">Bạc Liêu,</a>
+                        </li>
+                        <li>
+                            <a href="/c6/khach-san-tai-bac-ninh.html">Bắc Ninh,</a>
+                        </li>
+                        <li>
+                            <a href="/c13/khach-san-tai-ben-tre.html">Bến Tre,</a>
+                        </li>
+                        <li>
+                            <a href="/c9/khach-san-tai-binh-dinh.html">Bình Định,</a>
+                        </li>
+                        <li>
+                            <a href="/c8/khach-san-tai-binh-duong.html">Bình Dương,</a>
+                        </li>
+                        <li>
+                            <a href="/c10/khach-san-tai-binh-phuoc.html">Bình Phước,</a>
+                        </li>
+                        <li>
+                            <a href="/c11/khach-san-tai-binh-thuan.html">Bình Thuận,</a>
+                        </li>
+                        <li>
+                            <a href="/c24/khach-san-tai-ca-mau.html">Cà Mau,</a>
+                        </li>
+                        <li>
+                            <a href="/c15/khach-san-tai-can-tho.html">Cần Thơ,</a>
+                        </li>
+                        <li>
+                            <a href="/c25/khach-san-tai-cao-bang.html">Cao Bằng,</a>
+                        </li>
+                        <li>
+                            <a href="/c65/khach-san-tai-da-nang.html"><span class="bold">Đà Nẵng</span>,</a>
+                        </li>
+                        <li>
+                            <a href="/c67/khach-san-tai-dak-nong.html">Đắk Nông,</a>
+                        </li>
+                        <li>
+                            <a href="/c62/khach-san-tai-dak-lak.html">Đắk Lắk,</a>
+                        </li>
+                        <li>
+                            <a href="/c71/khach-san-tai-dien-bien.html">Điện Biên,</a>
+                        </li>
+                        <li>
+                            <a href="/c22/khach-san-tai-dong-nai.html">Đồng Nai,</a>
+                        </li>
+                        <li>
+                            <a href="/c64/khach-san-tai-dong-thap.html">Đồng Tháp,</a>
+                        </li>
+                        <li>
+                            <a href="/c26/khach-san-tai-gia-lai.html">Gia Lai,</a>
+                        </li>
+                        <li>
+                            <a href="/c27/khach-san-tai-ha-giang.html">Hà Giang,</a>
+                        </li>
+                        <li>
+                            <a href="/c28/khach-san-tai-ha-nam.html">Hà Nam,</a>
+                        </li>
+                        <li>
+                            <a href="/c2/khach-san-tai-ha-noi.html"><span class="bold">Hà Nội</span>,</a>
+                        </li>
+                        <li>
+                            <a href="/c30/khach-san-tai-ha-tinh.html">Hà Tĩnh,</a>
+                        </li>
+                        <li>
+                            <a href="/c31/khach-san-tai-hai-duong.html">Hải Dương,</a>
+                        </li>
+                        <li>
+                            <a href="/c32/khach-san-tai-hai-phong.html">Hải Phòng,</a>
+                        </li>
+                        <li>
+                            <a href="/c68/khach-san-tai-hau-giang.html">Hậu Giang,</a>
+                        </li>
+                        <li>
+                            <a href="/c3/khach-san-tai-ho-chi-minh.html"><span class="bold">Hồ Chí Minh</span>,</a>
+                        </li>
+                        <li>
+                            <a href="/c33/khach-san-tai-hoa-binh.html">Hoà Bình,</a>
+                        </li>
+                        <li>
+                            <a href="/c34/khach-san-tai-hung-yen.html">Hưng Yên,</a>
+                        </li>
+                        <li>
+                            <a href="/c17/khach-san-tai-khanh-hoa.html">Khánh Hòa,</a>
+                        </li>
+                        <li>
+                            <a href="/c35/khach-san-tai-kien-giang.html">Kiên Giang,</a>
+                        </li>
+                        <li>
+                            <a href="/c36/khach-san-tai-kon-tum.html">Kon Tum,</a>
+                        </li>
+                        <li>
+                            <a href="/c37/khach-san-tai-lai-chau.html">Lai Châu,</a>
+                        </li>
+                        <li>
+                            <a href="/c38/khach-san-tai-lam-dong.html">Lâm Đồng,</a>
+                        </li>
+                        <li>
+                            <a href="/c39/khach-san-tai-lang-son.html">Lạng Sơn,</a>
+                        </li>
+                        <li>
+                            <a href="/c20/khach-san-tai-lao-cai.html">Lào Cai,</a>
+                        </li>
+                        <li>
+                            <a href="/c40/khach-san-tai-long-an.html">Long An,</a>
+                        </li>
+                        <li>
+                            <a href="/c23/khach-san-tai-nam-dinh.html">Nam Định,</a>
+                        </li>
+                        <li>
+                            <a href="/c41/khach-san-tai-nghe-an.html">Nghệ An,</a>
+                        </li>
+                        <li>
+                            <a href="/c42/khach-san-tai-ninh-binh.html">Ninh Bình,</a>
+                        </li>
+                        <li>
+                            <a href="/c43/khach-san-tai-ninh-thuan.html">Ninh Thuận,</a>
+                        </li>
+                        <li>
+                            <a href="/c44/khach-san-tai-phu-tho.html">Phú Thọ,</a>
+                        </li>
+                        <li>
+                            <a href="/c45/khach-san-tai-phu-yen.html">Phú Yên,</a>
+                        </li>
+                        <li>
+                            <a href="/c46/khach-san-tai-quang-binh.html">Quảng Bình,</a>
+                        </li>
+                        <li>
+                            <a href="/c47/khach-san-tai-quang-nam.html">Quảng Nam,</a>
+                        </li>
+                        <li>
+                            <a href="/c48/khach-san-tai-quang-ngai.html">Quảng Ngãi,</a>
+                        </li>
+                        <li>
+                            <a href="/c21/khach-san-tai-quang-ninh.html">Quảng Ninh,</a>
+                        </li>
+                        <li>
+                            <a href="/c49/khach-san-tai-quang-tri.html">Quảng Trị,</a>
+                        </li>
+                        <li>
+                            <a href="/c50/khach-san-tai-soc-trang.html">Sóc Trăng,</a>
+                        </li>
+                        <li>
+                            <a href="/c51/khach-san-tai-son-la.html">Sơn La,</a>
+                        </li>
+                        <li>
+                            <a href="/c52/khach-san-tai-tay-ninh.html">Tây Ninh,</a>
+                        </li>
+                        <li>
+                            <a href="/c53/khach-san-tai-thai-binh.html">Thái Bình,</a>
+                        </li>
+                        <li>
+                            <a href="/c54/khach-san-tai-thai-nguyen.html">Thái Nguyên,</a>
+                        </li>
+                        <li>
+                            <a href="/c55/khach-san-tai-thanh-hoa.html">Thanh Hoá,</a>
+                        </li>
+                        <li>
+                            <a href="/c19/khach-san-tai-thua-thien-hue.html">Thừa Thiên Huế,</a>
+                        </li>
+                        <li>
+                            <a href="/c56/khach-san-tai-tien-giang.html">Tiền Giang,</a>
+                        </li>
+                        <li>
+                            <a href="/c57/khach-san-tai-tra-vinh.html">Trà Vinh,</a>
+                        </li>
+                        <li>
+                            <a href="/c58/khach-san-tai-tuyen-quang.html">Tuyên Quang,</a>
+                        </li>
+                        <li>
+                            <a href="/c59/khach-san-tai-vinh-long.html">Vĩnh Long,</a>
+                        </li>
+                        <li>
+                            <a href="/c60/khach-san-tai-vinh-phuc.html">Vĩnh Phúc,</a>
+                        </li>
+                        <li>
+                            <a href="/c61/khach-san-tai-yen-bai.html">Yên Bái</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- end hotels-by-province -->
+
+    <div id="hotels-by-alphabet" class="mt-block">
+        <div class="container">
+            <div class="title">
+                <h3>Khách sạn theo thứ tự từ A - Z</h3>
+                <span>&nbsp;</span>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 block-footer">
+                    <ul class="list-inline list-alphabet-name">
+                        <li>
+                            <a target="_blank" href="/hotel-index/a.html">A</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="/hotel-index/b.html">B</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="/hotel-index/c.html">C</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="/hotel-index/d.html">D</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="/hotel-index/e.html">E</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="/hotel-index/f.html">F</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="/hotel-index/g.html">G</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="/hotel-index/h.html">H</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="/hotel-index/i.html">I</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="/hotel-index/j.html">J</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="/hotel-index/k.html">K</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="/hotel-index/l.html">L</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="/hotel-index/m.html">M</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="/hotel-index/n.html">N</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="/hotel-index/o.html">O</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="/hotel-index/p.html">P</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="/hotel-index/q.html">Q</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="/hotel-index/r.html">R</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="/hotel-index/s.html">S</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="/hotel-index/t.html">T</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="/hotel-index/u.html">U</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="/hotel-index/v.html">V</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="/hotel-index/w.html">W</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="/hotel-index/x.html">X</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="/hotel-index/y.html">Y</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="/hotel-index/z.html">Z</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end hotels-by-alphabet  -->
+
+    <div id="mt-footer" class="block-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a rel="nofollow" href="/news/ca295/gioi-thieu-mytour.html">Giới thiệu Mytour</a>
+                                </li>
+                                <li>
+                                    <a rel="nofollow" href="/pms">Đối tác khách sạn</a>
+                                </li>
+                                <li>
+                                    <a rel="nofollow" href="http://hms.mytour.vn/">Đăng nhập HMS</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="/news/135160-chuong-trinh-tich-luy-vpoint-danh-cho-thanh-vien-mytour.html">Tích lũy Vpoint</a>
+                                </li>
+                                <li>
+                                    <a rel="nofollow" href="/news/135157-dieu-khoan-va-dieu-kien-su-dung.html">Điều khoản sử dụng</a>
+                                </li>
+                                <li>
+                                    <a rel="nofollow" href="/news/ca296/quy-che-hoat-dong.html">Quy chế hoạt động</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a rel="nofollow" href="/news/ca302/tuyen-dung.html">Tuyển dụng</a>
+                                </li>
+                                <li>
+                                    <a rel="nofollow" href="/help/30-lien-he.html">Liên hệ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <img src="./images/logo-bocongthuong.png" alt="Đã đăng ký bộ công thương">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="contact-mytour">
+                        <p><strong>Công ty TNHH Mytour Việt Nam</strong></p>
+                        <p>Số ĐKKD: 0105983269 cấp ngày 30/08/2012</p>
+                        <p>Văn phòng Hà Nội:&nbsp;Tầng 4, tòa nhà GP Invest, 170 Đê La Thành, Đống Đa</p>
+                        <p>Văn phòng HCM:&nbsp;Tầng 5, Tòa Nhà HDTC, Số 36 Bùi Thị Xuân, Q.1</p>
+                        <ul class="list-inline mg-t-20">
+                            <li>
+                                <a href="https://www.facebook.com/mytour.vn/" class="btn btn-block btn-facebook" target="_blank"> <i class="fa fa-facebook"></i> Facebook
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/mytour.vn/" class="btn btn-block btn-instaram" target="_blank">
+                                    <i class="fa fa-instagram"></i> Instagram
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://plus.google.com/+MytourVndulichtietkiem" class="btn btn-block btn-google" target="_blank">
+                                    <i class="fa fa-google-plus"></i> Google
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end mt-footer -->
+
+    <!-- jQuery -->
+    <script src="./js/jquery.min.js"></script>
+    <!-- JavaScript -->
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/moment.min.js"></script>
+    <script src="./js/jquery.daterangepicker.js"></script>
+    <script src="./js/aos.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

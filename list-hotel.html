@@ -2,20 +2,26 @@
 <html lang="utf-8">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Khách sạn Hà Nội giá rẻ | myTour.vn</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Khách sạn Hà Nội giá rẻ | myTour.vn</title>
 
-  <!-- Bootstrap CSS -->
-  <link href="./css/bootstrap.min.css" rel="stylesheet">
-  <link href="./css/font-awesome.min.css" rel="stylesheet">
-  <link href="./css/jquery.daterangepicker.css" rel="stylesheet">
-  <link href="./css/style.css" rel="stylesheet">
+    <!-- CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/font-awesome.min.css" rel="stylesheet">
+    <link href="./css/jquery.daterangepicker.css" rel="stylesheet">
+    <link href="./css/animate.css" rel="stylesheet">
+    <link href="./css/aos.css" rel="stylesheet">
+    <link href="./css/slider.css" rel="stylesheet">
+    <link href="./css/ion.rangeSlider.skinHTML5.css" rel="stylesheet">
+    <link href="./css/ion.rangeSlider.css" rel="stylesheet">
+    <link href="./css/normalize.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
 
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
               <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
               <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
           <![endif]-->
@@ -23,238 +29,1707 @@
 
 <body>
 
-  <div class="mt-header">
-    <div class="top-site hidden-xs">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-            <div class="top-site-left">
-              <p id="top-status" style="margin: 0;">Giá sốc trong tuần <span style="color:red;">giảm tới 50%</span>. Đặt ngay nhé!</p>
+    <div id="mt-header">
+        <div class="top-site hidden-xs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <div class="top-site-left">
+                            <p id="top-status" style="margin: 0;">Giá sốc trong tuần <span style="color:red;">giảm tới 50%</span>. Đặt ngay nhé!</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <div class="top-site-right">
+                            <div class="language">
+                                <a href="#">日本語でのご予約</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-            <div class="top-site-right">
-              <div class="language">
-                <a href="#">日本語でのご予約</a>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-    <div class="logo-hotline">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-4 col-sm-4 col-md-6 col-lg-6">
-            <div class="header-logo">
-              <a class="logo" href="index.html">
-                <img class="img-responsive" src="./images/logo.png" alt="mytour.vn" title="mytour.vn">
-              </a>
+        <div class="logo-hotline">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-4 col-sm-4 col-md-6 col-lg-6">
+                        <div class="header-logo">
+                            <a class="logo" href="index.html">
+                                <img class="img-responsive" src="./images/logo.png" alt="mytour.vn" title="mytour.vn">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-8 col-sm-8 col-md-6 col-lg-6">
+                        <div class="header-hotline">
+                            <p class="top-hotline247">Hotline <strong>miễn phí 24/7</strong></p>
+                            <p class="top-hotline"><i class="fa fa-phone"></i><strong> HN: 024 7109 9999</strong></p>
+                            <p class="top-hotline"><i class="fa fa-phone"></i><strong> HCM: 028 7109 9998</strong></p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-xs-8 col-sm-8 col-md-6 col-lg-6">
-            <div class="header-hotline">
-              <p class="top-hotline247">Hotline <strong>miễn phí 24/7</strong></p>
-              <p class="top-hotline"><i class="fa fa-phone"></i><strong> HN: 024 7109 9999</strong></p>
-              <p class="top-hotline"><i class="fa fa-phone"></i><strong> HCM: 028 7109 9998</strong></p>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
 
-    <div class="mt-navbar">
-      <nav class="navbar navbar-mytour" role="navigation">
-        <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".mt-navbar-collapse">
+        <div class="mt-navbar">
+            <nav class="navbar navbar-mytour" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".mt-navbar-collapse">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-          </div>
+                    </div>
 
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse mt-navbar-collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">KHÁCH SẠN</a></li>
-              <li><a href="#">TOUR</a></li>
-              <li><a href="#">CẨM NANG DU LỊCH</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">THÔNG TIN<b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">VỀ MYTOUR</a></li>
-                  <li><a href="#">TIN KHUYẾN MÃI</a></li>
-                  <li><a href="#">ƯU ĐÃI</a></li>
-                  <li><a href="#">HƯỚNG DẪN</a></li>
-                  <li><a href="#">LIÊN HỆ</a></li>
-                </ul>
-              </li>
-              <li><a href="#">TỐT NHẤT 2017</a></li>
-            </ul>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse mt-navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">KHÁCH SẠN</a></li>
+                            <li><a href="#">TOUR</a></li>
+                            <li><a href="#">CẨM NANG DU LỊCH</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">THÔNG TIN<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">VỀ MYTOUR</a></li>
+                                    <li><a href="#">TIN KHUYẾN MÃI</a></li>
+                                    <li><a href="#">ƯU ĐÃI</a></li>
+                                    <li><a href="#">HƯỚNG DẪN</a></li>
+                                    <li><a href="#">LIÊN HỆ</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">TỐT NHẤT 2017</a></li>
+                        </ul>
 
-            <ul class="nav navbar-nav navbar-right">
-              <li class="hidden-xs hidden-sm"><a class="navbar-icon" href="#"><i class="fa fa-comments fa-2x" aria-hidden="true"></i></i></a></li>
-              <li class="hidden-xs hidden-sm"><a class="navbar-icon" href="#"><i class="fa fa-bell-o fa-2x" aria-hidden="true"></i></a></li>
-              <li class="divider-vertical hidden-xs hidden-sm"></li>
-              <li class="dropdown  hidden-xs">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">TÀI KHOẢN<b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">ĐĂNG NHẬP</a></li>
-                  <li><a href="#">ĐĂNG KÝ</a></li>
-                  <li><a href="#">KHÁCH SẠN YÊU THÍCH</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-          <!-- /.navbar-collapse -->
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="hidden-xs hidden-sm"><a class="navbar-icon" href="#"><i class="fa fa-comments fa-2x" aria-hidden="true"></i></i></a></li>
+                            <li class="hidden-xs hidden-sm"><a class="navbar-icon" href="#"><i class="fa fa-bell-o fa-2x" aria-hidden="true"></i></a></li>
+                            <li class="divider-vertical hidden-xs hidden-sm"></li>
+                            <li class="dropdown  hidden-xs">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">TÀI KHOẢN<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">ĐĂNG NHẬP</a></li>
+                                    <li><a href="#">ĐĂNG KÝ</a></li>
+                                    <li><a href="#">KHÁCH SẠN YÊU THÍCH</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+            </nav>
         </div>
-      </nav>
+        <!-- end mt-navbar -->
     </div>
-    <!-- end mt-navbar -->
-  </div>
-  <!-- end mt-header -->
+    <!-- end mt-header -->
 
-  <div class="mt-slider">
-    <div id="mt-carousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#mt-carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#mt-carousel" data-slide-to="1" class=""></li>
-        <li data-target="#mt-carousel" data-slide-to="2" class=""></li>
-        <li data-target="#mt-carousel" data-slide-to="3" class=""></li>
-        <li data-target="#mt-carousel" data-slide-to="4" class=""></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="item active">
-          <img data-src="#" alt="First slide" src="./images/slide1.jpg">
-        </div>
-        <div class="item">
-          <img data-src="#" alt="Second slide" src="./images/slide2.jpg">
-        </div>
-        <div class="item">
-          <img data-src="#" alt="Third slide" src="./images/slide3.jpg">
-        </div>
-        <div class="item">
-          <img data-src="#" alt="Third slide" src="./images/slide4.jpg">
-        </div>
-        <div class="item">
-          <img data-src="#" alt="Third slide" src="./images/slide5.jpg">
-        </div>
-      </div>
-      <a class="left carousel-control" href="#mt-carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#mt-carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div>
-
-    <div class="box-search">
-      <div class="container">
-        <!-- Nav tabs -->
-        <ul class="nav nav-tabs" role="tablist">
-          <li role="presentation" class="active">
-            <a href="#vietnam-hotels-tab" aria-controls="vietnam-hotels-tab" role="tab" data-toggle="tab"><i class="fa fa-map-marker" aria-hidden="true"></i> Việt Nam</a>
-          </li>
-          <li role="presentation">
-            <a href="#international-hotels-tab" aria-controls="international-hotels-tab" role="tab" data-toggle="tab"><i class="fa fa-globe" aria-hidden="true"></i> Nước Ngoài</a>
-          </li>
-        </ul>
-
-        <!-- Tab panes -->
-        <div class="tab-content">
-          <div role="tabpanel" class="tab-pane active" id="vietnam-hotels-tab">
-            <div class="box-search-header">
-              <h1 class="h2 mg-0 mg-bt-5">Tìm Khách sạn trong nước</h1>
-              <p class="text-sm">Hơn 5,000 khách sạn khắp Việt Nam</p>
-            </div>
+    <div id="mt-search-bar">
+        <div class="container">
             <form id="search-vn-hotels">
-              <div class="row">
-                <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
-                  <div class="booking-hotels">
-                    <h4>Nơi bạn muốn đến</h4>
-                    <input class="form-control input-provinces" id="trip-keywords" type="text" placeholder="Nhập điểm đến, khách sạn" autocomplete="off">
-                  </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-5 col-md-3 col-lg-3">
-                  <div class="booking-date">
-                    <h4>Ngày nhận & trả phòng</h4>
-                    <input class="form-control input-provinces" name="booking-date-vn" id="booking-date-vn" type="text" autocomplete="off">
-                  </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
-                  <div class="booking-btn-search">
-                    <div class="booking-date">
-                      <h4>&nbsp;</h4>
-                      <button type="button" class="btn btn-block btn-mytour"><i class="fa fa-search" aria-hidden="true"></i> Tìm kiếm</button>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
+                        <div class="booking-hotels">
+                            <h4>Nơi bạn muốn đến</h4>
+                            <input class="form-control input-provinces" id="trip-keywords" type="text" placeholder="Nhập điểm đến, khách sạn" autocomplete="off">
+                        </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </form>
-          </div>
-          <div role="tabpanel" class="tab-pane" id="international-hotels-tab">
-            <div class="box-search-header">
-              <h1 class="h2 mg-0 mg-bt-5">Tìm Khách sạn Quốc Tế</h1>
-              <p class="text-sm">1,007,490 chỗ ở trên toàn thế giới</p>
-            </div>
-            <form id="search-international-hotels">
-              <div class="row">
-                <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
-                  <div class="booking-hotels">
-                    <h4>Nơi bạn muốn đến</h4>
-                    <input class="form-control input-provinces" id="trip-keywords" type="text" placeholder="Nhập điểm đến, khách sạn" autocomplete="off">
-                  </div>
-                </div>
 
-                <div class="col-xs-12 col-sm-5 col-md-3 col-lg-3">
-                  <div class="booking-date">
-                    <h4>Ngày nhận & trả phòng</h4>
-                    <input class="form-control input-provinces" name="booking-date-inter" id="booking-date-inter" type="text" autocomplete="off">
-                  </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
-                  <div class="booking-btn-search">
-                    <div class="booking-date">
-                      <h4>&nbsp;</h4>
-                      <button type="button" class="btn btn-block btn-mytour"><i class="fa fa-search" aria-hidden="true"></i> Tìm kiếm</button>
+                    <div class="col-xs-12 col-sm-5 col-md-3 col-lg-3">
+                        <div class="booking-date">
+                            <h4>Ngày nhận & trả phòng</h4>
+                            <input class="form-control input-provinces" name="booking-date-vn" id="booking-date-vn" type="text" autocomplete="off">
+                        </div>
                     </div>
-                  </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                        <div class="booking-btn-search">
+                            <div class="booking-date">
+                                <h4>&nbsp;</h4>
+                                <button type="button" class="btn btn-block btn-mytour"><i class="fa fa-search" aria-hidden="true"></i> Tìm kiếm</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </form>
-          </div>
         </div>
-      </div>
     </div>
-    <!-- end box-search -->
-  </div>
-  <!-- end mt-slider -->
 
-  <div id="mt-popular-places">
-    <div class="container">
-      <div class="section-header">
-        <h2>NHỮNG ĐIỂM ĐẾN HẤP DẪN</h2>
-        <span>&nbsp;</span>
-      </div>
+    <div id="mt-list-hotels">
+        <div class="container">
+            <div class="row">
+                <div id="sidebar" class="col-md-3">
+                    <div id="mt-hotel-filter">
+                        <div class="block-filter first">
+                            <div class="title">
+                                Lọc kết quả
+                            </div>
+                            <div class="content">
+                                <div class="result-count">
+                                    Có <b>952 khách sạn</b> theo ngày đã chọn
+                                </div>
+                                <div class="remove-filter text-right">
+                                    <a href="#">Bỏ lọc kết quả</a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="block-filter second">
+                            <div class="title">
+                                <a class="filter-section-toggle" role="button" data-toggle="collapse" href="#mt-filter-price-range" aria-expanded="true" aria-controls="mt-filter-price-range">Theo mức giá</a>
+                            </div>
+                            <div id="mt-filter-price-range" class="content panel-collapse collapse in" role="tabpanel">
+                                <input type="text" id="price-range" name="price-range" value="" />
+                                <div class="mt-promote-filter">
+                                    <input type="checkbox" class="option-input checkbox" name="mt-promote" /> Ưu đãi từ myTour <span class="label label-danger">HOT</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-filter thirst">
+                            <div class="title">
+                                <a class="filter-section-toggle" role="button" data-toggle="collapse" href="#mt-filter-hotel-class" aria-expanded="true" aria-controls="mt-filter-hotel-class">Hạng sao</a>
+                            </div>
+                            <div id="mt-filter-hotel-class" class="content panel-collapse collapse in" role="tabpanel">
+                                <ul class="list-unstyled">
+                                    <li><input type="checkbox" class="option-input checkbox" name="mt-hotel-class" />
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="option-input checkbox" name="mt-hotel-class" />
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="option-input checkbox" name="mt-hotel-class" />
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="option-input checkbox" name="mt-hotel-class" />
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="option-input checkbox" name="mt-hotel-class" />
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="block-filter four">
+                            <div class="title">
+                                <a class="filter-section-toggle" role="button" data-toggle="collapse" href="#mt-filter-hotel-type" aria-expanded="true" aria-controls="mt-filter-hotel-type">Loại hình</a>
+                            </div>
+                            <div id="mt-filter-hotel-type" class="content panel-collapse collapse in" role="tabpanel">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <input type="checkbox" class="option-input checkbox" name="mt-hotel-type" /> Khách sạn
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="option-input checkbox" name="mt-hotel-type" /> Resort
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="block-filter five">
+                            <div class="title">
+                                <a class="filter-section-toggle" role="button" data-toggle="collapse" href="#mt-filter-hotel-services" aria-expanded="true" aria-controls="mt-filter-hotel-services">Tiện nghi khách sạn</a>
+                            </div>
+                            <div id="mt-filter-hotel-services" class="content panel-collapse collapse in" role="tabpanel">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <input type="checkbox" class="option-input checkbox" name="mt-hotel-services" /> Hồ bơi ngoài trời
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="option-input checkbox" name="mt-hotel-services" /> Wifi miễn phí
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="option-input checkbox" name="mt-hotel-services" /> Bãi đỗ xe
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="option-input checkbox" name="mt-hotel-services" /> Đưa đón khách sạn/sân bay
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="option-input checkbox" name="mt-hotel-services" /> Thang máy
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="option-input checkbox" name="mt-hotel-services" /> Nhà hàng
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="option-input checkbox" name="mt-hotel-services" /> Spa
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="option-input checkbox" name="mt-hotel-services" /> Phòng họp
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="option-input checkbox" name="mt-hotel-services" /> Giặt là
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-block">
+                        <div class="title">
+                            Quận Huyện
+                        </div>
+                        <div class="content no-padding">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <input type="radio" class="option-input radio checked" name="districs" checked/>Tất cả Quận/Huyện
+                                </li>
+                            </ul>
+                            <div class="collapse-content">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="districs" />Hoàn Kiếm
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="districs" />Ba Đình
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="districs" />Cầu Giấy
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="districs" />Đống Đa
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="districs" />Hai Bà Trưng
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="districs" />Tây Hồ
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="districs" />Từ Liêm
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="districs" />Hoàng Mai
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="districs" />Sóc Sơn
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="districs" />Ba Vì
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="districs" />Thanh Xuân
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="districs" />Sơn Tây
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="districs" />Hà Đông
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="districs" />Thạch Thất
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="districs" />Long Biên
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="districs" />Chương Mỹ
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="districs" />Đông Anh
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="districs" />Ứng Hòa
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="districs" />Thường Tín
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="districs" />Thanh Trì
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="districs" />Thanh Oai
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="districs" />Quốc Oai
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="districs" />Phú Thọ
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="districs" />Phú Xuyên
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="districs" />Mỹ Đức
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="districs" />Hoài Đức
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="districs" />Gia Lâm
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="districs" />Đan Phượng
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end sidebar-block -->
+
+                    <div class="sidebar-block">
+                        <div class="title">
+                            Khu vực
+                        </div>
+                        <div class="content no-padding">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <input type="radio" class="option-input radio checked" name="area" checked/>Tất cả Khu vực
+                                </li>
+                            </ul>
+                            <div class="collapse-content">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="area" />Hoàn Kiếm
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="area" />Ba Đình
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="area" />Cầu Giấy
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="area" />Đống Đa
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="area" />Hai Bà Trưng
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="area" />Tây Hồ
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="area" />Từ Liêm
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="area" />Hoàng Mai
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="area" />Sóc Sơn
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="area" />Ba Vì
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="area" />Thanh Xuân
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="area" />Sơn Tây
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="area" />Hà Đông
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="area" />Thạch Thất
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="area" />Long Biên
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="area" />Chương Mỹ
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="area" />Đông Anh
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="area" />Ứng Hòa
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="area" />Thường Tín
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="area" />Thanh Trì
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="area" />Thanh Oai
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="area" />Quốc Oai
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="area" />Phú Thọ
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="area" />Phú Xuyên
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="area" />Mỹ Đức
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="area" />Hoài Đức
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="area" />Gia Lâm
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="option-input radio" name="area" />Đan Phượng
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- end sidebar-block -->
+                    </div>
+                    <div id="list-hotels" class="col-md-9">
+
+                    </div>
+                </div>
+
+                <div id="list-hotels" class="col-md-9">
+                    <div id="mt-breadcrumb" class="row-no-margin-right">
+                        <ol class="breadcrumb">
+                            <li><a href="#">Trang chủ</a></li>
+                            <li class="active">Khách sạn tại Hà Nội</li>
+                        </ol>
+                    </div>
+                    <!-- end mt-breadcrumb -->
+
+                    <div id="mt-place-short-info" class="row-no-margin-right">
+                        <div id="mt-place-header" class="row">
+                            <div id="mt-place-title" class="col-md-8">
+                                <h2>Khách sạn tại Hà Nội</h2>
+                            </div>
+                            <div id="mt-open-maps" class="col-md-4 text-right"><a href="#">Xem bản đồ <i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+                        </div>
+                        <div id="mt-place-short-desc">
+                            <p>Hà Nội là trung tâm văn hóa, kinh tế, giáo dục của cả miền Bắc, là nơi có dấu ấn lịch sử lâu đời như phố cổ Hà Nội, chùa Một Cột, Hồ Gươm, thành cổ Thăng Long, lăng chủ tịch Hồ Chí Minh, cầu Long Biên. Hãy để Mytour hỗ trợ
+                                bạn để có 1 chuyến đi thú vị, tiết kiệm bằng cách đặt phòng khách sạn Hà Nội ngay bây giờ với giá từ 100,000 VND đến 3,554,000 VND, với hơn 12341 đánh giá thật từ khách hàng.</p>
+                        </div>
+                    </div>
+                    <!-- end mt-place-short-info -->
+
+                    <div id="mt-hotels-sort" class="collap-filter-nav row-no-margin-right">
+                        <ul id="filter-nav" class="nav nav-tabs">
+                            <li role="presentation" class="active"><a href="#">Phổ biến nhất</a></li>
+                            <li role="presentation">
+                                <a id="mt-sort-star" data-target="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hạng khách sạn <span class="caret"></span></a>
+                                <ul class="dropdown-menu" aria-labelledby="mt-sort-star">
+                                    <li><a href="#">Hạng sao [5...1]</a></li>
+                                    <li><a href="#">Hạng sao [1...5]</a></li>
+                                </ul>
+                            </li>
+                            <li role="presentation"><a href="#">Đánh giá cao nhất</a></li>
+                            <li role="presentation"><a href="#">Khuyến mại nhiều nhất</a></li>
+                            <li role="presentation">
+                                <a id="mt-sort-price" data-target="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Giá <span class="caret"></span></a>
+                                <ul class="dropdown-menu" aria-labelledby="mt-sort-price">
+                                    <li><a href="#">Giá tăng dần</a></li>
+                                    <li><a href="#">Giá giảm dần</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- end mt-hotels-sort -->
+
+                    <div class="mt-hotels-row row-no-margin-right">
+                        <div class="mt-hotel-left-content col-sm-9">
+                            <div class="deal-wraper pull-right">
+                                <div class="deal-title">
+                                    <strong class="yellow">-5%</strong> nhập mã <strong class="yellow">MT5</strong>
+                                </div>
+                                <div class="deal-price">
+                                    <p>Giá chỉ còn</p>
+                                    <strong class="price">347,000 <small>đ</small></strong>
+                                </div>
+                            </div>
+                            <h2>
+                                <a href="#">
+                                        Khách sạn Little Hà Nội Diamond ( Khách sạn Lucky cũ )
+                                        <i class="star star-2" aria-hidden="true"></i>
+                                </a>
+                            </h2>
+                            <p class="hotel-address">
+                                <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> 11 Bát Đàn, Hoàn Kiếm, Hà Nội (Xem bản đồ)</a>
+                            </p>
+                            <p class="place-nearby">
+                                <a href="">Nhà thờ lớn</a>
+                            </p>
+
+                            <div class="hotel-info">
+                                <div class="hotel-image">
+                                    <a href="#"><img src="./images/hotels/hotel-sample.jpg" alt=" Khách sạn Little Hà Nội Diamond (Khách sạn Lucky cũ)"></a>
+                                </div>
+                                <div class="hotel-desc">
+                                    <div class="attribute-hotel">
+                                        <i style="cursor: default;" class="ui-breakfast" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Bữa sáng miễn phí"></i>
+                                        <i style="cursor: default;" class="" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Khách sạn"></i>
+                                        <i style="cursor: default;" class="ui-meeting" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Phòng họp"></i>
+                                        <i style="cursor: default;" class="ui-wifi" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Wifi miễn phí"></i>
+                                        <i style="cursor: default;" class="ui-laundry" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Giặt là"></i>
+                                        <i style="cursor: default;" class="ui-restaurant" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Nhà hàng"></i>
+                                    </div>
+                                    <div class="hotel-desc-content">
+                                        <small>“Khách sạn Little Hà Nội Diamond nằm trung tâm thành phố, ngay trong khu phố cổ nổi tiếng, bạn sẽ có dịp khám phá nét cổ kính của thủ đô nơi đây. Trang thiết bị hiện đại và được bài trí sang trọng, ấm...“</small>
+                                    </div>
+                                    <ul class="nav nav-list-gray pull-left mt-promise">
+                                        <li>
+                                            <a mytour-ext="ajax-modal" modal-name="modal-sure-back-money">
+                                                <i class="fa fa-check-circle green text-sm"></i> Đảm bảo hoàn tiền
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a mytour-ext="ajax-modal" modal-name="modal-sure-good-price">
+                                                <i class="fa fa-check-circle green text-sm"></i> Đảm bảo giá tốt nhất!
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <p class="notify-last-booking">Đặt lần cuối 2 ngày trước</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-hotel-right col-sm-3">
+                            <div class="box-review">
+                                <span class="rate">7.4</span>
+                                <span class="rate-info">Rất tốt</span>
+
+                                <p class="rate-number-info">
+                                    <a href="/3677-tan-da-spa-resort.html#cus_rate">(91 đánh giá)</a>
+                                </p>
+
+                            </div>
+                            <div class="listing-box-price box-price" id="checkGoodPrice">
 
 
+                                <span class="deal">Giảm giá 35<small>%</small></span>
+                                <div class="item-price">
+                                    <strong class="price-old">1,862,000
+                                <small>đ</small>
+                            </strong>
+                                    <br>
+                                    <strong class="price">1,218,000
+                                <small>đ</small>
+                            </strong>
+                                </div>
+                                <a class="events-tracking btn btn-yellow" href="/3677-tan-da-spa-resort.html" target="_blank" data-category="Listing" data-action="Hotel click" data-label="button Xem phòng - Tản Đà Spa Resort">Xem phòng</a>
+                                <p class="red text-xs"><strong>Đảm bảo còn phòng!</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end mt-hotels-row -->
 
-    </div>
-  </div>
+                    <div class="mt-hotels-row row-no-margin-right">
+                        <div class="mt-hotel-left-content col-sm-9">
+                            <div class="deal-wraper pull-right">
+                                <div class="deal-title">
+                                    <strong class="yellow">-5%</strong> nhập mã <strong class="yellow">MT5</strong>
+                                </div>
+                                <div class="deal-price">
+                                    <p>Giá chỉ còn</p>
+                                    <strong class="price">347,000 <small>đ</small></strong>
+                                </div>
+                            </div>
+                            <h2>
+                                <a href="#">
+                                            Khách sạn Little Hà Nội Diamond ( Khách sạn Lucky cũ )
+                                            <i class="star star-2" aria-hidden="true"></i>
+                                    </a>
+                            </h2>
+                            <p class="hotel-address">
+                                <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> 11 Bát Đàn, Hoàn Kiếm, Hà Nội (Xem bản đồ)</a>
+                            </p>
+                            <p class="place-nearby">
+                                <a href="">Nhà thờ lớn</a>
+                            </p>
+
+                            <div class="hotel-info">
+                                <div class="hotel-image">
+                                    <a href="#"><img src="./images/hotels/hotel-sample.jpg" alt=" Khách sạn Little Hà Nội Diamond (Khách sạn Lucky cũ)"></a>
+                                </div>
+                                <div class="hotel-desc">
+                                    <div class="attribute-hotel">
+                                        <i style="cursor: default;" class="ui-breakfast" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Bữa sáng miễn phí"></i>
+                                        <i style="cursor: default;" class="" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Khách sạn"></i>
+                                        <i style="cursor: default;" class="ui-meeting" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Phòng họp"></i>
+                                        <i style="cursor: default;" class="ui-wifi" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Wifi miễn phí"></i>
+                                        <i style="cursor: default;" class="ui-laundry" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Giặt là"></i>
+                                        <i style="cursor: default;" class="ui-restaurant" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Nhà hàng"></i>
+                                    </div>
+                                    <div class="hotel-desc-content">
+                                        <small>“Khách sạn Little Hà Nội Diamond nằm trung tâm thành phố, ngay trong khu phố cổ nổi tiếng, bạn sẽ có dịp khám phá nét cổ kính của thủ đô nơi đây. Trang thiết bị hiện đại và được bài trí sang trọng, ấm...“</small>
+                                    </div>
+                                    <ul class="nav nav-list-gray pull-left mt-promise">
+                                        <li>
+                                            <a mytour-ext="ajax-modal" modal-name="modal-sure-back-money">
+                                                <i class="fa fa-check-circle green text-sm"></i> Đảm bảo hoàn tiền
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a mytour-ext="ajax-modal" modal-name="modal-sure-good-price">
+                                                <i class="fa fa-check-circle green text-sm"></i> Đảm bảo giá tốt nhất!
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <p class="notify-last-booking">Đặt lần cuối 2 ngày trước</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-hotel-right col-sm-3">
+                            <div class="box-review">
+                                <span class="rate">7.4</span>
+                                <span class="rate-info">Rất tốt</span>
+
+                                <p class="rate-number-info">
+                                    <a href="/3677-tan-da-spa-resort.html#cus_rate">(91 đánh giá)</a>
+                                </p>
+
+                            </div>
+                            <div class="listing-box-price box-price" id="checkGoodPrice">
 
 
+                                <span class="deal">Giảm giá 35<small>%</small></span>
+                                <div class="item-price">
+                                    <strong class="price-old">1,862,000
+                                    <small>đ</small>
+                                </strong>
+                                    <br>
+                                    <strong class="price">1,218,000
+                                    <small>đ</small>
+                                </strong>
+                                </div>
+                                <a class="events-tracking btn btn-yellow" href="/3677-tan-da-spa-resort.html" target="_blank" data-category="Listing" data-action="Hotel click" data-label="button Xem phòng - Tản Đà Spa Resort">Xem phòng</a>
+                                <p class="red text-xs"><strong>Đảm bảo còn phòng!</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end mt-hotels-row -->
+
+                    <div class="mt-hotels-row row-no-margin-right">
+                        <div class="mt-hotel-left-content col-sm-9">
+                            <div class="deal-wraper pull-right">
+                                <div class="deal-title">
+                                    <strong class="yellow">-5%</strong> nhập mã <strong class="yellow">MT5</strong>
+                                </div>
+                                <div class="deal-price">
+                                    <p>Giá chỉ còn</p>
+                                    <strong class="price">347,000 <small>đ</small></strong>
+                                </div>
+                            </div>
+                            <h2>
+                                <a href="#">
+                                                Khách sạn Little Hà Nội Diamond ( Khách sạn Lucky cũ )
+                                                <i class="star star-2" aria-hidden="true"></i>
+                                        </a>
+                            </h2>
+                            <p class="hotel-address">
+                                <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> 11 Bát Đàn, Hoàn Kiếm, Hà Nội (Xem bản đồ)</a>
+                            </p>
+                            <p class="place-nearby">
+                                <a href="">Nhà thờ lớn</a>
+                            </p>
+
+                            <div class="hotel-info">
+                                <div class="hotel-image">
+                                    <a href="#"><img src="./images/hotels/hotel-sample.jpg" alt=" Khách sạn Little Hà Nội Diamond (Khách sạn Lucky cũ)"></a>
+                                </div>
+                                <div class="hotel-desc">
+                                    <div class="attribute-hotel">
+                                        <i style="cursor: default;" class="ui-breakfast" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Bữa sáng miễn phí"></i>
+                                        <i style="cursor: default;" class="" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Khách sạn"></i>
+                                        <i style="cursor: default;" class="ui-meeting" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Phòng họp"></i>
+                                        <i style="cursor: default;" class="ui-wifi" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Wifi miễn phí"></i>
+                                        <i style="cursor: default;" class="ui-laundry" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Giặt là"></i>
+                                        <i style="cursor: default;" class="ui-restaurant" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Nhà hàng"></i>
+                                    </div>
+                                    <div class="hotel-desc-content">
+                                        <small>“Khách sạn Little Hà Nội Diamond nằm trung tâm thành phố, ngay trong khu phố cổ nổi tiếng, bạn sẽ có dịp khám phá nét cổ kính của thủ đô nơi đây. Trang thiết bị hiện đại và được bài trí sang trọng, ấm...“</small>
+                                    </div>
+                                    <ul class="nav nav-list-gray pull-left mt-promise">
+                                        <li>
+                                            <a mytour-ext="ajax-modal" modal-name="modal-sure-back-money">
+                                                <i class="fa fa-check-circle green text-sm"></i> Đảm bảo hoàn tiền
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a mytour-ext="ajax-modal" modal-name="modal-sure-good-price">
+                                                <i class="fa fa-check-circle green text-sm"></i> Đảm bảo giá tốt nhất!
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <p class="notify-last-booking">Đặt lần cuối 2 ngày trước</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-hotel-right col-sm-3">
+                            <div class="box-review">
+                                <span class="rate">7.4</span>
+                                <span class="rate-info">Rất tốt</span>
+
+                                <p class="rate-number-info">
+                                    <a href="/3677-tan-da-spa-resort.html#cus_rate">(91 đánh giá)</a>
+                                </p>
+
+                            </div>
+                            <div class="listing-box-price box-price" id="checkGoodPrice">
 
 
+                                <span class="deal">Giảm giá 35<small>%</small></span>
+                                <div class="item-price">
+                                    <strong class="price-old">1,862,000
+                                        <small>đ</small>
+                                    </strong>
+                                    <br>
+                                    <strong class="price">1,218,000
+                                        <small>đ</small>
+                                    </strong>
+                                </div>
+                                <a class="events-tracking btn btn-yellow" href="/3677-tan-da-spa-resort.html" target="_blank" data-category="Listing" data-action="Hotel click" data-label="button Xem phòng - Tản Đà Spa Resort">Xem phòng</a>
+                                <p class="red text-xs"><strong>Đảm bảo còn phòng!</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end mt-hotels-row -->
 
-  <!-- jQuery -->
-  <script src="./js/jquery.min.js"></script>
-  <!-- Bootstrap JavaScript -->
-  <script src="./js/bootstrap.min.js"></script>
-  <script src="./js/moment.min.js"></script>
-  <script src="./js/jquery.daterangepicker.js"></script>
-  <script src="./js/script.js"></script>
+                    <div class="mt-hotels-row row-no-margin-right">
+                        <div class="mt-hotel-left-content col-sm-9">
+                            <div class="deal-wraper pull-right">
+                                <div class="deal-title">
+                                    <strong class="yellow">-5%</strong> nhập mã <strong class="yellow">MT5</strong>
+                                </div>
+                                <div class="deal-price">
+                                    <p>Giá chỉ còn</p>
+                                    <strong class="price">347,000 <small>đ</small></strong>
+                                </div>
+                            </div>
+                            <h2>
+                                <a href="#">
+                                                    Khách sạn Little Hà Nội Diamond ( Khách sạn Lucky cũ )
+                                                    <i class="star star-2" aria-hidden="true"></i>
+                                            </a>
+                            </h2>
+                            <p class="hotel-address">
+                                <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> 11 Bát Đàn, Hoàn Kiếm, Hà Nội (Xem bản đồ)</a>
+                            </p>
+                            <p class="place-nearby">
+                                <a href="">Nhà thờ lớn</a>
+                            </p>
+
+                            <div class="hotel-info">
+                                <div class="hotel-image">
+                                    <a href="#"><img src="./images/hotels/hotel-sample.jpg" alt=" Khách sạn Little Hà Nội Diamond (Khách sạn Lucky cũ)"></a>
+                                </div>
+                                <div class="hotel-desc">
+                                    <div class="attribute-hotel">
+                                        <i style="cursor: default;" class="ui-breakfast" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Bữa sáng miễn phí"></i>
+                                        <i style="cursor: default;" class="" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Khách sạn"></i>
+                                        <i style="cursor: default;" class="ui-meeting" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Phòng họp"></i>
+                                        <i style="cursor: default;" class="ui-wifi" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Wifi miễn phí"></i>
+                                        <i style="cursor: default;" class="ui-laundry" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Giặt là"></i>
+                                        <i style="cursor: default;" class="ui-restaurant" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Nhà hàng"></i>
+                                    </div>
+                                    <div class="hotel-desc-content">
+                                        <small>“Khách sạn Little Hà Nội Diamond nằm trung tâm thành phố, ngay trong khu phố cổ nổi tiếng, bạn sẽ có dịp khám phá nét cổ kính của thủ đô nơi đây. Trang thiết bị hiện đại và được bài trí sang trọng, ấm...“</small>
+                                    </div>
+                                    <ul class="nav nav-list-gray pull-left mt-promise">
+                                        <li>
+                                            <a mytour-ext="ajax-modal" modal-name="modal-sure-back-money">
+                                                <i class="fa fa-check-circle green text-sm"></i> Đảm bảo hoàn tiền
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a mytour-ext="ajax-modal" modal-name="modal-sure-good-price">
+                                                <i class="fa fa-check-circle green text-sm"></i> Đảm bảo giá tốt nhất!
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <p class="notify-last-booking">Đặt lần cuối 2 ngày trước</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-hotel-right col-sm-3">
+                            <div class="box-review">
+                                <span class="rate">7.4</span>
+                                <span class="rate-info">Rất tốt</span>
+
+                                <p class="rate-number-info">
+                                    <a href="/3677-tan-da-spa-resort.html#cus_rate">(91 đánh giá)</a>
+                                </p>
+
+                            </div>
+                            <div class="listing-box-price box-price" id="checkGoodPrice">
+
+
+                                <span class="deal">Giảm giá 35<small>%</small></span>
+                                <div class="item-price">
+                                    <strong class="price-old">1,862,000
+                                            <small>đ</small>
+                                        </strong>
+                                    <br>
+                                    <strong class="price">1,218,000
+                                            <small>đ</small>
+                                        </strong>
+                                </div>
+                                <a class="events-tracking btn btn-yellow" href="/3677-tan-da-spa-resort.html" target="_blank" data-category="Listing" data-action="Hotel click" data-label="button Xem phòng - Tản Đà Spa Resort">Xem phòng</a>
+                                <p class="red text-xs"><strong>Đảm bảo còn phòng!</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end mt-hotels-row -->
+
+                    <div class="mt-hotels-row row-no-margin-right">
+                        <div class="mt-hotel-left-content col-sm-9">
+                            <div class="deal-wraper pull-right">
+                                <div class="deal-title">
+                                    <strong class="yellow">-5%</strong> nhập mã <strong class="yellow">MT5</strong>
+                                </div>
+                                <div class="deal-price">
+                                    <p>Giá chỉ còn</p>
+                                    <strong class="price">347,000 <small>đ</small></strong>
+                                </div>
+                            </div>
+                            <h2>
+                                <a href="#">
+                                                        Khách sạn Little Hà Nội Diamond ( Khách sạn Lucky cũ )
+                                                        <i class="star star-2" aria-hidden="true"></i>
+                                                </a>
+                            </h2>
+                            <p class="hotel-address">
+                                <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> 11 Bát Đàn, Hoàn Kiếm, Hà Nội (Xem bản đồ)</a>
+                            </p>
+                            <p class="place-nearby">
+                                <a href="">Nhà thờ lớn</a>
+                            </p>
+
+                            <div class="hotel-info">
+                                <div class="hotel-image">
+                                    <a href="#"><img src="./images/hotels/hotel-sample.jpg" alt=" Khách sạn Little Hà Nội Diamond (Khách sạn Lucky cũ)"></a>
+                                </div>
+                                <div class="hotel-desc">
+                                    <div class="attribute-hotel">
+                                        <i style="cursor: default;" class="ui-breakfast" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Bữa sáng miễn phí"></i>
+                                        <i style="cursor: default;" class="" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Khách sạn"></i>
+                                        <i style="cursor: default;" class="ui-meeting" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Phòng họp"></i>
+                                        <i style="cursor: default;" class="ui-wifi" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Wifi miễn phí"></i>
+                                        <i style="cursor: default;" class="ui-laundry" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Giặt là"></i>
+                                        <i style="cursor: default;" class="ui-restaurant" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Nhà hàng"></i>
+                                    </div>
+                                    <div class="hotel-desc-content">
+                                        <small>“Khách sạn Little Hà Nội Diamond nằm trung tâm thành phố, ngay trong khu phố cổ nổi tiếng, bạn sẽ có dịp khám phá nét cổ kính của thủ đô nơi đây. Trang thiết bị hiện đại và được bài trí sang trọng, ấm...“</small>
+                                    </div>
+                                    <ul class="nav nav-list-gray pull-left mt-promise">
+                                        <li>
+                                            <a mytour-ext="ajax-modal" modal-name="modal-sure-back-money">
+                                                <i class="fa fa-check-circle green text-sm"></i> Đảm bảo hoàn tiền
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a mytour-ext="ajax-modal" modal-name="modal-sure-good-price">
+                                                <i class="fa fa-check-circle green text-sm"></i> Đảm bảo giá tốt nhất!
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <p class="notify-last-booking">Đặt lần cuối 2 ngày trước</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-hotel-right col-sm-3">
+                            <div class="box-review">
+                                <span class="rate">7.4</span>
+                                <span class="rate-info">Rất tốt</span>
+
+                                <p class="rate-number-info">
+                                    <a href="/3677-tan-da-spa-resort.html#cus_rate">(91 đánh giá)</a>
+                                </p>
+
+                            </div>
+                            <div class="listing-box-price box-price" id="checkGoodPrice">
+
+
+                                <span class="deal">Giảm giá 35<small>%</small></span>
+                                <div class="item-price">
+                                    <strong class="price-old">1,862,000
+                                                <small>đ</small>
+                                            </strong>
+                                    <br>
+                                    <strong class="price">1,218,000
+                                                <small>đ</small>
+                                            </strong>
+                                </div>
+                                <a class="events-tracking btn btn-yellow" href="/3677-tan-da-spa-resort.html" target="_blank" data-category="Listing" data-action="Hotel click" data-label="button Xem phòng - Tản Đà Spa Resort">Xem phòng</a>
+                                <p class="red text-xs"><strong>Đảm bảo còn phòng!</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end mt-hotels-row -->
+
+                    <div class="mt-hotels-row row-no-margin-right">
+                        <div class="mt-hotel-left-content col-sm-9">
+                            <div class="deal-wraper pull-right">
+                                <div class="deal-title">
+                                    <strong class="yellow">-5%</strong> nhập mã <strong class="yellow">MT5</strong>
+                                </div>
+                                <div class="deal-price">
+                                    <p>Giá chỉ còn</p>
+                                    <strong class="price">347,000 <small>đ</small></strong>
+                                </div>
+                            </div>
+                            <h2>
+                                <a href="#">
+                                                            Khách sạn Little Hà Nội Diamond ( Khách sạn Lucky cũ )
+                                                            <i class="star star-2" aria-hidden="true"></i>
+                                                    </a>
+                            </h2>
+                            <p class="hotel-address">
+                                <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> 11 Bát Đàn, Hoàn Kiếm, Hà Nội (Xem bản đồ)</a>
+                            </p>
+                            <p class="place-nearby">
+                                <a href="">Nhà thờ lớn</a>
+                            </p>
+
+                            <div class="hotel-info">
+                                <div class="hotel-image">
+                                    <a href="#"><img src="./images/hotels/hotel-sample.jpg" alt=" Khách sạn Little Hà Nội Diamond (Khách sạn Lucky cũ)"></a>
+                                </div>
+                                <div class="hotel-desc">
+                                    <div class="attribute-hotel">
+                                        <i style="cursor: default;" class="ui-breakfast" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Bữa sáng miễn phí"></i>
+                                        <i style="cursor: default;" class="" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Khách sạn"></i>
+                                        <i style="cursor: default;" class="ui-meeting" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Phòng họp"></i>
+                                        <i style="cursor: default;" class="ui-wifi" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Wifi miễn phí"></i>
+                                        <i style="cursor: default;" class="ui-laundry" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Giặt là"></i>
+                                        <i style="cursor: default;" class="ui-restaurant" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Nhà hàng"></i>
+                                    </div>
+                                    <div class="hotel-desc-content">
+                                        <small>“Khách sạn Little Hà Nội Diamond nằm trung tâm thành phố, ngay trong khu phố cổ nổi tiếng, bạn sẽ có dịp khám phá nét cổ kính của thủ đô nơi đây. Trang thiết bị hiện đại và được bài trí sang trọng, ấm...“</small>
+                                    </div>
+                                    <ul class="nav nav-list-gray pull-left mt-promise">
+                                        <li>
+                                            <a mytour-ext="ajax-modal" modal-name="modal-sure-back-money">
+                                                <i class="fa fa-check-circle green text-sm"></i> Đảm bảo hoàn tiền
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a mytour-ext="ajax-modal" modal-name="modal-sure-good-price">
+                                                <i class="fa fa-check-circle green text-sm"></i> Đảm bảo giá tốt nhất!
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <p class="notify-last-booking">Đặt lần cuối 2 ngày trước</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-hotel-right col-sm-3">
+                            <div class="box-review">
+                                <span class="rate">7.4</span>
+                                <span class="rate-info">Rất tốt</span>
+
+                                <p class="rate-number-info">
+                                    <a href="/3677-tan-da-spa-resort.html#cus_rate">(91 đánh giá)</a>
+                                </p>
+
+                            </div>
+                            <div class="listing-box-price box-price" id="checkGoodPrice">
+
+
+                                <span class="deal">Giảm giá 35<small>%</small></span>
+                                <div class="item-price">
+                                    <strong class="price-old">1,862,000
+                                                    <small>đ</small>
+                                                </strong>
+                                    <br>
+                                    <strong class="price">1,218,000
+                                                    <small>đ</small>
+                                                </strong>
+                                </div>
+                                <a class="events-tracking btn btn-yellow" href="/3677-tan-da-spa-resort.html" target="_blank" data-category="Listing" data-action="Hotel click" data-label="button Xem phòng - Tản Đà Spa Resort">Xem phòng</a>
+                                <p class="red text-xs"><strong>Đảm bảo còn phòng!</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end mt-hotels-row -->
+
+                    <div class="mt-hotels-row row-no-margin-right">
+                        <div class="mt-hotel-left-content col-sm-9">
+                            <div class="deal-wraper pull-right">
+                                <div class="deal-title">
+                                    <strong class="yellow">-5%</strong> nhập mã <strong class="yellow">MT5</strong>
+                                </div>
+                                <div class="deal-price">
+                                    <p>Giá chỉ còn</p>
+                                    <strong class="price">347,000 <small>đ</small></strong>
+                                </div>
+                            </div>
+                            <h2>
+                                <a href="#">
+                                                                Khách sạn Little Hà Nội Diamond ( Khách sạn Lucky cũ )
+                                                                <i class="star star-2" aria-hidden="true"></i>
+                                                        </a>
+                            </h2>
+                            <p class="hotel-address">
+                                <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> 11 Bát Đàn, Hoàn Kiếm, Hà Nội (Xem bản đồ)</a>
+                            </p>
+                            <p class="place-nearby">
+                                <a href="">Nhà thờ lớn</a>
+                            </p>
+
+                            <div class="hotel-info">
+                                <div class="hotel-image">
+                                    <a href="#"><img src="./images/hotels/hotel-sample.jpg" alt=" Khách sạn Little Hà Nội Diamond (Khách sạn Lucky cũ)"></a>
+                                </div>
+                                <div class="hotel-desc">
+                                    <div class="attribute-hotel">
+                                        <i style="cursor: default;" class="ui-breakfast" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Bữa sáng miễn phí"></i>
+                                        <i style="cursor: default;" class="" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Khách sạn"></i>
+                                        <i style="cursor: default;" class="ui-meeting" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Phòng họp"></i>
+                                        <i style="cursor: default;" class="ui-wifi" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Wifi miễn phí"></i>
+                                        <i style="cursor: default;" class="ui-laundry" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Giặt là"></i>
+                                        <i style="cursor: default;" class="ui-restaurant" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Nhà hàng"></i>
+                                    </div>
+                                    <div class="hotel-desc-content">
+                                        <small>“Khách sạn Little Hà Nội Diamond nằm trung tâm thành phố, ngay trong khu phố cổ nổi tiếng, bạn sẽ có dịp khám phá nét cổ kính của thủ đô nơi đây. Trang thiết bị hiện đại và được bài trí sang trọng, ấm...“</small>
+                                    </div>
+                                    <ul class="nav nav-list-gray pull-left mt-promise">
+                                        <li>
+                                            <a mytour-ext="ajax-modal" modal-name="modal-sure-back-money">
+                                                <i class="fa fa-check-circle green text-sm"></i> Đảm bảo hoàn tiền
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a mytour-ext="ajax-modal" modal-name="modal-sure-good-price">
+                                                <i class="fa fa-check-circle green text-sm"></i> Đảm bảo giá tốt nhất!
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <p class="notify-last-booking">Đặt lần cuối 2 ngày trước</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-hotel-right col-sm-3">
+                            <div class="box-review">
+                                <span class="rate">7.4</span>
+                                <span class="rate-info">Rất tốt</span>
+
+                                <p class="rate-number-info">
+                                    <a href="/3677-tan-da-spa-resort.html#cus_rate">(91 đánh giá)</a>
+                                </p>
+
+                            </div>
+                            <div class="listing-box-price box-price" id="checkGoodPrice">
+
+
+                                <span class="deal">Giảm giá 35<small>%</small></span>
+                                <div class="item-price">
+                                    <strong class="price-old">1,862,000
+                                                        <small>đ</small>
+                                                    </strong>
+                                    <br>
+                                    <strong class="price">1,218,000
+                                                        <small>đ</small>
+                                                    </strong>
+                                </div>
+                                <a class="events-tracking btn btn-yellow" href="/3677-tan-da-spa-resort.html" target="_blank" data-category="Listing" data-action="Hotel click" data-label="button Xem phòng - Tản Đà Spa Resort">Xem phòng</a>
+                                <p class="red text-xs"><strong>Đảm bảo còn phòng!</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end mt-hotels-row -->
+
+                    <div class="mt-hotels-row row-no-margin-right">
+                        <div class="mt-hotel-left-content col-sm-9">
+                            <div class="deal-wraper pull-right">
+                                <div class="deal-title">
+                                    <strong class="yellow">-5%</strong> nhập mã <strong class="yellow">MT5</strong>
+                                </div>
+                                <div class="deal-price">
+                                    <p>Giá chỉ còn</p>
+                                    <strong class="price">347,000 <small>đ</small></strong>
+                                </div>
+                            </div>
+                            <h2>
+                                <a href="#">
+                                                                    Khách sạn Little Hà Nội Diamond ( Khách sạn Lucky cũ )
+                                                                    <i class="star star-2" aria-hidden="true"></i>
+                                                            </a>
+                            </h2>
+                            <p class="hotel-address">
+                                <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> 11 Bát Đàn, Hoàn Kiếm, Hà Nội (Xem bản đồ)</a>
+                            </p>
+                            <p class="place-nearby">
+                                <a href="">Nhà thờ lớn</a>
+                            </p>
+
+                            <div class="hotel-info">
+                                <div class="hotel-image">
+                                    <a href="#"><img src="./images/hotels/hotel-sample.jpg" alt=" Khách sạn Little Hà Nội Diamond (Khách sạn Lucky cũ)"></a>
+                                </div>
+                                <div class="hotel-desc">
+                                    <div class="attribute-hotel">
+                                        <i style="cursor: default;" class="ui-breakfast" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Bữa sáng miễn phí"></i>
+                                        <i style="cursor: default;" class="" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Khách sạn"></i>
+                                        <i style="cursor: default;" class="ui-meeting" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Phòng họp"></i>
+                                        <i style="cursor: default;" class="ui-wifi" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Wifi miễn phí"></i>
+                                        <i style="cursor: default;" class="ui-laundry" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Giặt là"></i>
+                                        <i style="cursor: default;" class="ui-restaurant" data-container="body" data-toggle="tooltip" data-placement="bottom" data-original-title="Nhà hàng"></i>
+                                    </div>
+                                    <div class="hotel-desc-content">
+                                        <small>“Khách sạn Little Hà Nội Diamond nằm trung tâm thành phố, ngay trong khu phố cổ nổi tiếng, bạn sẽ có dịp khám phá nét cổ kính của thủ đô nơi đây. Trang thiết bị hiện đại và được bài trí sang trọng, ấm...“</small>
+                                    </div>
+                                    <ul class="nav nav-list-gray pull-left mt-promise">
+                                        <li>
+                                            <a mytour-ext="ajax-modal" modal-name="modal-sure-back-money">
+                                                <i class="fa fa-check-circle green text-sm"></i> Đảm bảo hoàn tiền
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a mytour-ext="ajax-modal" modal-name="modal-sure-good-price">
+                                                <i class="fa fa-check-circle green text-sm"></i> Đảm bảo giá tốt nhất!
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <p class="notify-last-booking">Đặt lần cuối 2 ngày trước</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-hotel-right col-sm-3">
+                            <div class="box-review">
+                                <span class="rate">7.4</span>
+                                <span class="rate-info">Rất tốt</span>
+
+                                <p class="rate-number-info">
+                                    <a href="/3677-tan-da-spa-resort.html#cus_rate">(91 đánh giá)</a>
+                                </p>
+
+                            </div>
+                            <div class="listing-box-price box-price" id="checkGoodPrice">
+
+
+                                <span class="deal">Giảm giá 35<small>%</small></span>
+                                <div class="item-price">
+                                    <strong class="price-old">1,862,000
+                                                            <small>đ</small>
+                                                        </strong>
+                                    <br>
+                                    <strong class="price">1,218,000
+                                                            <small>đ</small>
+                                                        </strong>
+                                </div>
+                                <a class="events-tracking btn btn-yellow" href="/3677-tan-da-spa-resort.html" target="_blank" data-category="Listing" data-action="Hotel click" data-label="button Xem phòng - Tản Đà Spa Resort">Xem phòng</a>
+                                <p class="red text-xs"><strong>Đảm bảo còn phòng!</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end mt-hotels-row -->
+                </div>
+            </div>
+        </div>
+
+        <div id="province-info">
+            <div class="container">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="row">
+                        <div class="title">
+                            Thông tin về Hà Nội
+                        </div>
+                        <div class="content">
+                            <p>Đặt phòng khách sạn Hà Nội giá tốt nhất tại Mytour.vn, với nhiều khuyến mãi từ website và đơn vị khách sạn tiết kiệm lên đến 70%. Hơn 150.000 đánh giá từ khách hàng đã qua sử dụng khách sạn giúp bạn đưa ra những quyết định
+                                tốt nhất cho lựa chọn của mình. Đặc biệt chính sách ĐẢM BẢO HOÀN TIỀN chỉ có tại Mytour.vn, giờ đây bạn có thể hoàn toàn tin tưởng vào dịch vụ đặt phòng trực tuyến.&nbsp;</p>
+                            <p><span style="font-weight: 400;">Ngoài ra, chúng tôi cũng trân trọng giới thiệu đến bạn những</span><a title=" khách sạn Hà Nội tốt nhất 2016" href="http://mytour.vn/c2/khach-san-tai-ha-noi/tot-nhat.html"> khách sạn Hà Nội tốt nhất 2016</a>
+                                <span style="font-weight: 400;"> trong các hạng mục Best Seller và Top Review trên website Mytour.vn. Đây là những khách sạn đạt tiêu chuẩn rất cao và làm hài lòng cả những vị khách khó tính nhất.</span><br><br>Với hơn
+                                5.000 khách sạn, resort tại 63 tỉnh/ thành phố, Mytour ngày càng được du khách tin dùng để tìm kiếm khách sạn. Mytour sẽ hỗ trợ quý khách đặt khách sạn Hà Nội với chi phí hợp lý để có chuyến đi thật thú vị và tiết kiệm.
+                                Ngoài việc cung cấp những khách sạn giá tốt nhất, bạn có còn có thể tìm thấy nhiều thông tin du lịch hữu ích và thú vị khác.</p>
+                            <p>Thủ đô <strong>Hà Nội</strong> - trung tâm chính trị, kinh tế, văn hoá của đất nước. Trải qua bao biến động và thách thức, Hà Nội đang không ngừng phát triển và khẳng định vị thế là một trong những trung tâm du lịch lớn nhất
+                                cả nước. Khí hậu Hà Nội mang đặc điểm nhiệt đới gió mùa ẩm, mỗi năm có đủ bốn mùa xuân, hạ, thu, đông. Đặc biệt, vẻ đẹp của mùa thu Hà Nội với mùi thơm nồng nàn của hoa sữa hay màu xanh của những mẹt cốm làng Vòng… đã trở
+                                thành cảm hứng sáng tác của biết bao văn nghệ sỹ.</p>
+                            <p>Khi <a href="http://mytour.vn/c2/khach-san-tai-ha-noi.html">đặt khách sạn tại Hà Nội</a>, Mytour với hệ thống đặt phòng&nbsp;có hơn 680 khách sạn được trang bị đầy đủ tiện nghi hiện đại cùng với dịch vụ chăm sóc khách hàng
+                                hoàn hảo sẽ mang lại cho bạn những trải nghiệm thú vị.</p>
+                            <p>Từ lâu, Hà Nội trở thành điểm đến thu hút du khách quốc tế lớn nhất cả nước bởi vẻ đẹp cổ kính, trầm mặc, thanh lịch. Hà Nội có tài nguyên du lịch tự nhiên và nhân văn phong phú, Hà Nội có hệ thống hồ đẹp, tạo nên giá trị cảnh
+                                quan rất riêng của Hà Nội: như Hồ Tây, hồ Hoàn Kiếm, hồ Quan Sơn, Suối Hai, đầm Vân Trì…đặc biệt Khu di tích Hoàng Thành Thăng Long, lễ Hội Gióng ở đền Phù Đổng và đền Sóc, Ca trù được UNESCO công nhận là di sản văn hóa
+                                thế giới, ngoài ra, hệ thống các văn bia tiến sĩ thời Lê Mạc tại Văn Miếu Quốc Tử Giám được UNESCO công nhận là di sản tư liệu thế giới&nbsp; thuộc chương trình ký ức thế giới của UNESCO. <em>Du lịch Hà Nội</em> bạn sẽ
+                                được tham quan những thắng cảnh nổi tiếng nơi đây như:</p>
+                            <p><strong><em>Chùa Một Cột:</em></strong> Chùa này nằm ở phía tây thủ đô, thuộc thôn Ngọc Thanh, khu Ngọc Hà. Nơi đó nguyên có một cái hồ hình vuông, giữa hồ có một cột đá, cao chừng hai trượng, chu vi chín thước, đầu trụ đặt
+                                một tòa chùa ngói nhỏ, hình như một đóa hoa sen dưới nước mọc lên, người ta gọi là chùa Nhất Trụ hay là chùa Chùa Một Cột. &nbsp;Chùa xây từ năm 1049, tức là năm 1049, tức là năm đầu tiên Sùng Hưng Đại Bảo vua Thái Tôn
+                                nhà Lý. Tục truyền khi ấy vua Thái Tôn tuổi đã cao mà chưa có con trai, thường đến cầu tự ở các chùa. Một đêm nằm chiêm bao thy đức phật Quan Âm, hiện trên đài hoa sen trong một cái hồ vuông ở phía tây thành, tay bế một
+                                đức con trai đưa cho nhà vua. Sau đó nhà vua quả sinh được con trai. Nhà vua liền sia lập chùa Một Cột để thờ Quan Âm. Khi chùa làm xong, nhà vua triệu tậphàng trăm ngàn tăng ni đứng chầu chung quanh, tụng kinh suốt bảy
+                                ngày bảy đêm và lập thêm mộ ngôi chùa lớn ở ngay bên cạnh để thờ chư phật, gọi là chùa Diên Hựu.</p>
+                            <p><strong><em>Hồ Hoàn Kiếm:</em></strong> Thuộc quận Hoàn Kiếm, thành phố Hà Nội. Hồ Hoàn Kiếm được coi là hòn ngọc của Thủ đô, hay như du khách nước ngoài gọi là "Lẵng hoa giữa lòng thành phố". Theo các nhà khoa học hồ là một
+                                đoạn sót lại của sông Hồng sau khi sông đã chuyển dòng như hiện nay. Sự việc sông nước biến thiên ấy diễn ra cách đây vài nghìn năm. Trước đây hồ có tên là Lục Thủy vì sắc nước bốn mùa xanh. Thế kỉ 15, hồ Lục Thủy đổi tên
+                                là hồ Hoàn Kiếm. Cái tên Hoàn Kiếm gắn liền với câu chuyện trả gươm cho rùa vàng của vua Lê Thái Tổ.</p>
+                            <p><strong><em>Quảng Trường Ba Đình Hà Nội:</em></strong> Hà Nội trong trái tim của nước Việt Nam thì quảng trường Ba Đình là trái tim của Hà Nội. Vì tại đây đã diễn ra những sự kiện quan trọng của thủ đô và cũng là cả nước. Nguyên
+                                nơi đây vốn là khu vực cửa Tây của thành Hà Nội cổ. Đầu thời Pháp thuộc, thực dân pháthành, làm một vườn hoa nhỏ nơi ơ đây gọi là điểm tròn Puginier. Năm 1945, mới có tên là vườn hòa Ba Đình. Chữ Ba Đình là để gợi nhớ dải
+                                đất Ba Đình ở tỉnh Thanh Hóa mới đã nổ ra cuộc khởi nghĩa chống Pháp kéo dài từ tháng 9/1886 đến tháng 1/1887.</p>
+                            <p>Ngày 2/9/1945, nửa triệu đồng bào Hà Nội và phụ cận đã đổ về quảng trường này để dự lễ Độc Lập. Lễ đài dựng giữa quảng trường, bốn mặt hình thang phủ vải đỏ, ở giữa có hình nổi ngôi sao vàng năm cánh.</p>
+                            <p><strong><em>Lăng Chủ Tịch Hồ Chí Minh</em></strong>: Song song với việc giữ gìn lâu đài thi hài bác. Trung ương rất quan tâm tới việc xây dựng lăng mộ của Người. Quan điểm yêu cầu xây lăng một được thống nhất trên tinh thần
+                                tính hiện đại, dân tộc, trang nghiêm nhưng giản dị và thuận tiện cho nhân dân vào thăng lăng. Lăng nằm gần ở Quảng Trường Ba Đình là trung tâm trong tổng thể các di tích lịch sử: Quảng Trường Ba Đình, khu lưu niệm Bác ở
+                                Phủ Chủ Tịch và các khu vực tiếp giáp, đặc biệt sau này có thêm bảo tàng Hồ Chí Minh như một bông sen trắng nổi lên tô đẹp thêm quần thể các di tích đặc biệt về Bác. Vấn đề xây lăng mộ cho bác được các cơ quan cao nhất
+                                của Đảng và Nhà Nước ta đặc biệt quan tâm. Bên cạnh đó Đảng và Chính Phuủ Liên Xô hết lòng giúp đỡ, xem đây là một trách niệm lớn lao và quang vinh với Bác Hồ kính yêu.</p>
+                            <p>Ẩm thực Hà Nội đặc trưng bởi vị thanh, ngọt, nhẹ nhàng như phong thái người Tràng An xưa nay. Song cùng với sự phát triển về mọi mặt, ẩm thực Hà Nội cũng du nhập những tinh hoa của nhiều vùng miền trên cả nước, biến đổi theo
+                                phong cách riêng. Những món ăn nổi tiếng và phổ biến nhất ở Hà Nội gồm có: Phở, bún chả, chả cá Lã Vọng, nộm bò khô, các món ăn từ vịt, kem Tràng Tiền, ốc luộc, chân gà nướng, bún ốc, nem tai Bà Hồng. Các tiệm phở nổi tiếng
+                                ở Hà Nội có thể kể đến phở Lý Quốc Sư ,Phở Bát Đàn, phở Hàng Trống, Hàng Muối, phở gà Lê Văn Hưu… Chả cá Lã Vọng cũng là một đặc sản nổi tiếng, ăn kèm với bún cùng các loại rau thơm, chấm kèm mắm tôm hoặc nước mắm ngon.
+                                Món này rất thơm và đậm đà, thích hợp cho những ngày mưa hoặc khi trời se lạnh, hàng lâu đời nhất phải kể đến số 14 phố Chả Cá.</p>
+                            <p>Ngoài ra, một số món ăn ít phổ biến hơn nhưng cũng rất đặc trưng cho ẩm thực thủ đô gồm: Bánh cuốn Thanh Trì, Bánh dày Quán Gánh, Bánh Tôm Hồ Tây, bún thang, bún mọc, đậu phụ Mơ, giò chả Ước Lễ, bún đậu mắm tôm.. Những món
+                                quà Hà Nội được nhiều người yêu thích chọn mua là ô mai Hàng Đường với rất nhiều vị như ô mai mơ, sấu, chanh, các loại bánh kẹo đặc sản như bánh cốm phố hàng Than, cốm làng vòng,kẹo lạc, bánh cáy, chả rươi,…</p>
+                            <p>Hãy nhanh tay <a href="http://mytour.vn/tour/c2/tour-du-lich-ha-noi.html">đặt tour tại Hà Nội</a>&nbsp;qua hệ thống đặt phòng, đặt tour trực tuyến của Mytour để chúng tôi có thể hỗ trợ quý khách có một chuyến đi thật thú vị
+                                và tiết kiệm với chi phí hợp lý nhất!</p>
+                            <p>Đến với Mytour.vn, bạn sẽ có cơ hội <strong><a href="http://mytour.vn/c2/khach-san-gia-re-tai-ha-noi.html">đặt phòng khách sạn giá rẻ tại Hà Nội</a> </strong>cùng nhiều chương trình khuyến mại hấp dẫn chỉ dành riêng cho khách
+                                hàng Mytour nữa đấy!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end province-info -->
+
+        <div id="province-addition-info" class="mt-block">
+            <div class="container">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#nearby-place" aria-controls="nearby-place" role="tab" data-toggle="tab">Địa danh lân cận</a></li>
+                    <li role="presentation"><a href="#need-to-know" aria-controls="need-to-know" role="tab" data-toggle="tab">Những điều cần biết</a></li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="nearby-place">
+                        <div class="row">
+                            <ul id="list-place-nearby" class="list-unstyled">
+                                <li class="col-xs-6 col-sm-3 col-md-3 col-lg-3 place-nearby">
+                                    <a href="#">
+                                        <div class="place-thumbnail">
+                                            <img src="./images/updating-img-xs.jpg" alt="">
+                                        </div>
+                                        <div class="place-info">
+                                            <p class="title">
+                                                Lăng Chủ Tịch Hồ Chí Minh
+                                            </p>
+                                            <p class="distance">
+                                                <i class="fa fa-map-marker"></i> ~ 0km
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-xs-6 col-sm-3 col-md-3 col-lg-3 place-nearby">
+                                    <a href="#">
+                                        <div class="place-thumbnail">
+                                            <img src="./images/updating-img-xs.jpg" alt="">
+                                        </div>
+                                        <div class="place-info">
+                                            <p class="title">
+                                                Lăng Chủ Tịch Hồ Chí Minh
+                                            </p>
+                                            <p class="distance">
+                                                <i class="fa fa-map-marker"></i> ~ 0km
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-xs-6 col-sm-3 col-md-3 col-lg-3 place-nearby">
+                                    <a href="#">
+                                        <div class="place-thumbnail">
+                                            <img src="./images/updating-img-xs.jpg" alt="">
+                                        </div>
+                                        <div class="place-info">
+                                            <p class="title">
+                                                Lăng Chủ Tịch Hồ Chí Minh
+                                            </p>
+                                            <p class="distance">
+                                                <i class="fa fa-map-marker"></i> ~ 0km
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-xs-6 col-sm-3 col-md-3 col-lg-3 place-nearby">
+                                    <a href="#">
+                                        <div class="place-thumbnail">
+                                            <img src="./images/updating-img-xs.jpg" alt="">
+                                        </div>
+                                        <div class="place-info">
+                                            <p class="title">
+                                                Lăng Chủ Tịch Hồ Chí Minh
+                                            </p>
+                                            <p class="distance">
+                                                <i class="fa fa-map-marker"></i> ~ 0km
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-xs-6 col-sm-3 col-md-3 col-lg-3 place-nearby">
+                                    <a href="#">
+                                        <div class="place-thumbnail">
+                                            <img src="./images/updating-img-xs.jpg" alt="">
+                                        </div>
+                                        <div class="place-info">
+                                            <p class="title">
+                                                Lăng Chủ Tịch Hồ Chí Minh
+                                            </p>
+                                            <p class="distance">
+                                                <i class="fa fa-map-marker"></i> ~ 0km
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-xs-6 col-sm-3 col-md-3 col-lg-3 place-nearby">
+                                    <a href="#">
+                                        <div class="place-thumbnail">
+                                            <img src="./images/updating-img-xs.jpg" alt="">
+                                        </div>
+                                        <div class="place-info">
+                                            <p class="title">
+                                                Lăng Chủ Tịch Hồ Chí Minh
+                                            </p>
+                                            <p class="distance">
+                                                <i class="fa fa-map-marker"></i> ~ 0km
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-xs-6 col-sm-3 col-md-3 col-lg-3 place-nearby">
+                                    <a href="#">
+                                        <div class="place-thumbnail">
+                                            <img src="./images/updating-img-xs.jpg" alt="">
+                                        </div>
+                                        <div class="place-info">
+                                            <p class="title">
+                                                Lăng Chủ Tịch Hồ Chí Minh
+                                            </p>
+                                            <p class="distance">
+                                                <i class="fa fa-map-marker"></i> ~ 0km
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-xs-6 col-sm-3 col-md-3 col-lg-3 place-nearby">
+                                    <a href="#">
+                                        <div class="place-thumbnail">
+                                            <img src="./images/updating-img-xs.jpg" alt="">
+                                        </div>
+                                        <div class="place-info">
+                                            <p class="title">
+                                                Lăng Chủ Tịch Hồ Chí Minh
+                                            </p>
+                                            <p class="distance">
+                                                <i class="fa fa-map-marker"></i> ~ 0km
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-xs-6 col-sm-3 col-md-3 col-lg-3 place-nearby">
+                                    <a href="#">
+                                        <div class="place-thumbnail">
+                                            <img src="./images/updating-img-xs.jpg" alt="">
+                                        </div>
+                                        <div class="place-info">
+                                            <p class="title">
+                                                Lăng Chủ Tịch Hồ Chí Minh
+                                            </p>
+                                            <p class="distance">
+                                                <i class="fa fa-map-marker"></i> ~ 0km
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-xs-6 col-sm-3 col-md-3 col-lg-3 place-nearby">
+                                    <a href="#">
+                                        <div class="place-thumbnail">
+                                            <img src="./images/updating-img-xs.jpg" alt="">
+                                        </div>
+                                        <div class="place-info">
+                                            <p class="title">
+                                                Lăng Chủ Tịch Hồ Chí Minh
+                                            </p>
+                                            <p class="distance">
+                                                <i class="fa fa-map-marker"></i> ~ 0km
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-xs-6 col-sm-3 col-md-3 col-lg-3 place-nearby">
+                                    <a href="#">
+                                        <div class="place-thumbnail">
+                                            <img src="./images/updating-img-xs.jpg" alt="">
+                                        </div>
+                                        <div class="place-info">
+                                            <p class="title">
+                                                Lăng Chủ Tịch Hồ Chí Minh
+                                            </p>
+                                            <p class="distance">
+                                                <i class="fa fa-map-marker"></i> ~ 0km
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col-xs-6 col-sm-3 col-md-3 col-lg-3 place-nearby">
+                                    <a href="#">
+                                        <div class="place-thumbnail">
+                                            <img src="./images/updating-img-xs.jpg" alt="">
+                                        </div>
+                                        <div class="place-info">
+                                            <p class="title">
+                                                Lăng Chủ Tịch Hồ Chí Minh
+                                            </p>
+                                            <p class="distance">
+                                                <i class="fa fa-map-marker"></i> ~ 0km
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="need-to-know">
+                        <div class="row">
+                            <ul class="list-unstyled">
+                                <li class="col-xs-4"> <a href="/c2/454-am-thuc-dac-trung-nhat-dinh-phai-thu-khi-du-lich-ha-noi.html"> Ẩm thực đặc trưng nhất định phải thử khi du lịch Hà Nội </a></li>
+                                <li class="col-xs-4"> <a href="/c2/455-co-cuon-cam-nang-nay-khong-con-lo-lang-cho-o-khi-du-lich-ha-noi.html"> Có cuốn cẩm nang này, không còn lo lắng chỗ ở khi du lịch Hà Nội </a></li>
+                                <li class="col-xs-4"> <a href="/c2/456-du-lich-ha-noi-nen-mua-gi-ve-lam-qua.html"> Du lịch Hà Nội nên mua gì về làm quà? </a></li>
+                            </ul>
+                            <ul class="list-unstyled">
+                                <li class="col-xs-4"> <a href="/c2/457-du-lich-ha-noi-ly-tuong-nhat-vao-luc-nao.html"> Du lịch Hà Nội lý tưởng nhất vào lúc nào? </a></li>
+                                <li class="col-xs-4"> <a href="/c2/458-du-lich-ha-noi-di-chuyen-phuong-tien-nao-thich-hop.html"> Du lịch Hà Nội: di chuyển phương tiện nào thích hợp? </a></li>
+                                <li class="col-xs-4"> <a href="/c2/459-van-hoa-thu-do-nhung-dieu-thu-vi-ve-ha-noi-dau-yeu.html"> Văn hoá Thủ đô - Những điều thú vị về Hà Nội dấu yêu </a></li>
+                            </ul>
+                            <ul class="list-unstyled">
+                                <li class="col-xs-4"> <a href="/c2/460-nhung-dieu-can-luu-y-khi-di-du-lich-ha-noi.html"> Những điều cần lưu ý khi đi du lịch Hà Nội </a></li>
+                                <li class="col-xs-4"> <a href="/c2/461-choi-gi-o-ha-noi-thu-do-nghin-nam-van-hien.html"> Chơi gì ở Hà Nội - Thủ đô nghìn năm văn hiến </a></li>
+                                <li class="col-xs-4"> <a href="/c2/462-cam-nang-du-lich-ha-noi-tu-a-den-z.html"> Cẩm nang du lịch Hà Nội từ A đến Z </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end province-addition-info -->
+
+        <div id="hotels-nearby-province" class="mt-block">
+            <div class="container">
+                <div class="title">
+                    <h3>Khách sạn theo các tỉnh thành gần Hà Nội nhất</h3>
+                    <span>&nbsp;</span>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12 block-footer">
+                        <ul class="list-inline">
+                            <li>
+                                <a href="/c6/khach-san-tai-bac-ninh.html">Bắc Ninh,</a>
+                            </li>
+                            <li>
+                                <a href="/c7/khach-san-tai-bac-giang.html">Bắc Giang,</a>
+                            </li>
+                            <li>
+                                <a href="/c60/khach-san-tai-vinh-phuc.html">Vĩnh Phúc,</a>
+                            </li>
+                            <li>
+                                <a href="/c34/khach-san-tai-hung-yen.html">Hưng Yên,</a>
+                            </li>
+                            <li>
+                                <a href="/c31/khach-san-tai-hai-duong.html">Hải Dương</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- end hotels-by-province -->
+
+        <div id="hotels-by-alphabet" class="mt-block">
+            <div class="container">
+                <div class="title">
+                    <h3>Khách sạn theo thứ tự từ A - Z</h3>
+                    <span>&nbsp;</span>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12 block-footer">
+                        <ul class="list-inline list-alphabet-name">
+                            <li>
+                                <a target="_blank" href="/hotel-index/a.html">A</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="/hotel-index/b.html">B</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="/hotel-index/c.html">C</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="/hotel-index/d.html">D</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="/hotel-index/e.html">E</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="/hotel-index/f.html">F</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="/hotel-index/g.html">G</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="/hotel-index/h.html">H</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="/hotel-index/i.html">I</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="/hotel-index/j.html">J</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="/hotel-index/k.html">K</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="/hotel-index/l.html">L</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="/hotel-index/m.html">M</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="/hotel-index/n.html">N</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="/hotel-index/o.html">O</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="/hotel-index/p.html">P</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="/hotel-index/q.html">Q</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="/hotel-index/r.html">R</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="/hotel-index/s.html">S</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="/hotel-index/t.html">T</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="/hotel-index/u.html">U</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="/hotel-index/v.html">V</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="/hotel-index/w.html">W</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="/hotel-index/x.html">X</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="/hotel-index/y.html">Y</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="/hotel-index/z.html">Z</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end hotels-by-alphabet  -->
+
+        <div id="mt-footer" class="block-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a rel="nofollow" href="/news/ca295/gioi-thieu-mytour.html">Giới thiệu Mytour</a>
+                                    </li>
+                                    <li>
+                                        <a rel="nofollow" href="/pms">Đối tác khách sạn</a>
+                                    </li>
+                                    <li>
+                                        <a rel="nofollow" href="http://hms.mytour.vn/">Đăng nhập HMS</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="/news/135160-chuong-trinh-tich-luy-vpoint-danh-cho-thanh-vien-mytour.html">Tích lũy Vpoint</a>
+                                    </li>
+                                    <li>
+                                        <a rel="nofollow" href="/news/135157-dieu-khoan-va-dieu-kien-su-dung.html">Điều khoản sử dụng</a>
+                                    </li>
+                                    <li>
+                                        <a rel="nofollow" href="/news/ca296/quy-che-hoat-dong.html">Quy chế hoạt động</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a rel="nofollow" href="/news/ca302/tuyen-dung.html">Tuyển dụng</a>
+                                    </li>
+                                    <li>
+                                        <a rel="nofollow" href="/help/30-lien-he.html">Liên hệ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <img src="./images/logo-bocongthuong.png" alt="Đã đăng ký bộ công thương">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="contact-mytour">
+                            <p><strong>Công ty TNHH Mytour Việt Nam</strong></p>
+                            <p>Số ĐKKD: 0105983269 cấp ngày 30/08/2012</p>
+                            <p>Văn phòng Hà Nội:&nbsp;Tầng 4, tòa nhà GP Invest, 170 Đê La Thành, Đống Đa</p>
+                            <p>Văn phòng HCM:&nbsp;Tầng 5, Tòa Nhà HDTC, Số 36 Bùi Thị Xuân, Q.1</p>
+                            <ul class="list-inline mg-t-20">
+                                <li>
+                                    <a href="https://www.facebook.com/mytour.vn/" class="btn btn-block btn-facebook" target="_blank"> <i class="fa fa-facebook"></i> Facebook
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/mytour.vn/" class="btn btn-block btn-instaram" target="_blank">
+                                        <i class="fa fa-instagram"></i> Instagram
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://plus.google.com/+MytourVndulichtietkiem" class="btn btn-block btn-google" target="_blank">
+                                        <i class="fa fa-google-plus"></i> Google
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end mt-footer -->
+
+        <!-- jQuery -->
+        <script src="./js/jquery.min.js"></script>
+        <!-- JavaScript -->
+        <script src="./js/bootstrap.min.js"></script>
+        <script src="./js/moment.min.js"></script>
+        <script src="./js/jquery.daterangepicker.js"></script>
+        <script src="./js/aos.js"></script>
+        <script src="./js/readmore.min.js"></script>
+        <script src="./js/bootstrap-slider.js"></script>
+        <script src="./js/ion.rangeSlider.min.js"></script>
+        <script src="./js/script.js"></script>
 </body>
 
 </html>
